@@ -1,0 +1,21 @@
+import pandas as pd
+a = pd.read_csv("expenditures.csv")
+a.columns
+a['Unnamed:1']
+a['Unnamed: 1']
+a['Unnamed: 1'].str.replace(',','').str.replace('-','0').astype(int)
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').astype(int)
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0')
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-')).str.replace(')','')
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','')
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').ix(947)
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').ix(947).head()
+a.fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').ix[947]
+a[a['Unnamed: 0'].str.lower().str.contains('dean')].fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').ix[947]
+a[a['Unnamed: 0'].notnull & a['Unnamed: 0'].str.lower().str.contains('dean')].fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').ix[947]
+a[a['Unnamed: 0'].notnull & a['Unnamed: 0'].str.lower().str.contains('dean')].fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','')
+a[a['Unnamed: 0'].notnull & a['Unnamed: 0'].str.lower().str.contains('dean')].fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').sum()
+a[a['Unnamed: 0'].notnull & a['Unnamed: 0'].str.lower().str.contains('dean')].fillna('0')['Unnamed: 1'].str.replace(',','').str.replace('-','0').str.replace('(','-').str.replace(')','').astype(int).sum()
+import readline
+for i in range(readline.get_current_history_length()):
+    print readline.get_history_item(i + 1)

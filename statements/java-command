@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -Dwarbler.port=9999 -jar ~/bin/tabula-master/lib/jars/tabula-0.9.1-jar-with-dependencies.jar -p 1-32 docs/berkeley-consolidated.pdf > berkeley-consolidated.csv

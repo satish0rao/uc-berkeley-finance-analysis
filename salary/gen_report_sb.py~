@@ -1,0 +1,89 @@
+import pandas as pd
+
+def get_positions(a, place = 'UC Berkeley', contains = '', without = 'profl'):
+    return a[(a['Department / Subdivision'] == place) & (a['Position'].notnull()) & a['Position'].str.lower().str.contains(contains) & ( ~a['Position'].str.lower().str.contains(without))]
+
+def old_get_positions(a,place,title="",without='XXXXX', pay_lb = 0.0):
+    return a[(a['campus'] == place)  &
+             a['gross'].notnull() &
+             (a['gross'] > pay_lb) &
+             a['title'].str.lower().str.contains(title) &
+             ~a['title'].str.lower().str.contains(without)]
+
+
+def excluder(a,exclude_list=[],column_name='Position'):
+    for x in xrange(0,len(exclude_list)):
+        a = a[~a[column_name].str.lower().str.contains(exclude_list[x])]
+    return a
+
+def old_excluder(a,exclude_list=[],column_name='Position'):
+    return excluder(a,exclude_list,column_name='title')
+
+def basic_report_pay(a,title_name='',match_list=[],exclude_list=[],place='UC - Berkeley',old=False):
+    if old:
+        getter = old_get_positions
+        excluding = old_excluder
+        title = 'title'
+        amount = 'gross'
+    else:
+        getter = get_positions
+        excluding = excluder
+        title = 'Position'
+        amount = 'Total Wages'
+    got_this = getter(a,place,match_list[0])
+    for i in xrange(1,len(match_list)):
+        got_this = pd.concat(got_this,
+                             getter(a,place,match_list[i]))
+
+    got_this = excluding(got_this,exclude_list)
+
+    print
+    print "%s Position titles: most common\n" % title_name, got_this[title].value_counts().head()
+    #print "Professor Position titles: lease common\n", profs2011['title'].value_counts().tail()
+    print "%s Count: " % title_name , got_this[title].count()
+    print "%s Gross Pay: " % title_name, got_this[amount].sum()
+    print
+    return got_this[amount].sum()
+
+
+a2011 = pd.read_csv("data/ucpay2011.csv",sep='\t')
+
+profs2011_pre = old_get_positions(a2011,'BERKELEY','prof','professional')
+profs2011 = old_get_positions(profs2011_pre,'BERKELEY','prof','prof\'l')
+
+
+lect2011 = old_get_positions(a2011,'BERKELEY','lect','intellectual')
+lect2011 = old_get_positions(lect2011,'BERKELEY','lect','elect')
+lect2011 = old_get_positions(lect2011,'BERKELEY','lect','collect')
+
+print "**************"
+print "***BERKELEY 2011***"
+print "**************"
+
+basic_report_pay(a2011,title_name='Professors', match_list=['prof'], exclude_list=['prof\'l','professional'],place='BERKELEY', old=True)
+
+
+basic_report_pay(a2011,title_name='lect', match_list=['lect'], exclude_list=[],place='BERKELEY', old=True)
+
+
+print "**************"
+print "***BERKELEY 2015***"
+print "**************"
+
+a2015 = pd.read_csv("data/2015_UniversityOfCalifornia.csv")
+
+
+teaching = basic_report_pay(a2015,title_name='Professors',match_list=['prof'],exclude_list=['profl'])
+teaching += basic_report_pay(a2015,title_name='Lecturer',match_list=['lect'], exclude_list=['ellect','elect','collect'])
+teaching += basic_report_pay(a2015,title_name='Teaching Assistant',match_list=['teachg'], exclude_list=[])
+teaching += basic_report_pay(a2015,title_name='Teacher',match_list=['teacher'], exclude_list=[])
+research =basic_report_pay(a2015,title_name='GSR',match_list=['gsr'], exclude_list=[])
+research += basic_report_pay(a2015,title_name='PostDoc',match_list=['postdoc'], exclude_list=[])
+research += basic_report_pay(a2015,title_name='Research Associates',match_list=['res'], exclude_list=['prof','survey','computer','stores'])
+research += basic_report_pay(a2015,title_name='Scientist ',match_list=['scientist'], exclude_list=['prof','survey','computer','stores'])
+
+print "Teachers    : ", teaching
+print "Researchers : ", research
+print "Total Wages : ", a2015[a2015['Department / Subdivision'] == 'UC - Berkeley']['Total Wages'].sum()
+
+
