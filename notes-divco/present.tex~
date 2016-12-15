@@ -1,0 +1,97 @@
+\documentclass{beamer}
+
+\usepackage{times,latexsym,mathptmx,comment,latexsym,epsf,amssymb,graphicx,url,amsmath,amsfonts,textcomp}
+
+\newcommand{\skippause}{\vskip5pt
+\pause}
+
+\begin{document}
+
+\begin{frame}{What to do?}
+
+
+\end{frame}
+
+
+\begin{frame}{Absolute Value.}
+
+From Berkeley consolidated report.
+Berkeley: \\
+
+Cost of Instruction: 855 Million. \\
+\skippause
+Total (State) Salary Cost of Faculty/Teachers/GSIs: 270 M. \\
+Benefits: 110 more (including tuition?) \\
+So..400M \\ 
+\skippause
+Where oh, where does the almost 485M go? \\
+\skippause
+~~~E.g., 10 million dollars for COE Dean's office, ... \\
+~~~~How is this instruction?
+\skippause
+Student Services? \\
+~~~Separate Line Item: 202M\\
+\skippause
+Academic Support? \\ 
+~~~Separate Line Item: 165M \\
+\skippause
+Institutional Support?
+~~~Separate Line Item: 186M \\
+\skippause
+How is this legal?
+\skippause
+From Charlie Schwartz: \\
+~~~BACUBO: National Association of College and University Business Officers \\
+\skippause
+~~~~Cost of Instruction: differs college to college. \\ 
+~~~~
+~~~~Cost of Education- contains \pause Museums, \pause, libraries, \pause, housing/dining if deficit, \pause, recreation, \pause intercollegiate athletics deficits, \pause financial aid (double counting?) \pause ... \\
+\skippause
+I read the NACUBO report\ref{http://www.nacubo.org/documents/research/cofcfinalreport.pdf}.
+\skippause
+\ref{http://reportingtransparency.universityofcalifornia.edu/}{Berkeley Expense Numbers.}
+\skippause
+
+
+\end{frame}
+
+\begin{frame}{Growth...}
+
+Sanjay? \\
+\skippause
+Schwartz (longer term): ....\\
+\skippause
+Rao: examples... \\ 
+     Finance/MGR versus Faculty: 2012-2014.
+     
+
+\end{frame}
+
+\begin{frame}{Comparison to another...}
+
+Santa Barbara:
+
+\end{frame}
+
+
+%% \begin{frame}{Prof Charles Schwartz}
+
+
+%% \skippause
+%% Caveat: wants research part of faculty separated out with respect
+%% to undergraduate teaching?
+
+%% \end{frame}
+
+\begin{frame}{Assembly Bill 94}
+
+
+\\
+University of California essentially has refused to comply.
+
+
+\end{frame}
+
+\end{document}
+
+
