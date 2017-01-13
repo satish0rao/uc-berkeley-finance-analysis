@@ -11,10 +11,12 @@ print "Generating report for ", place
 
 xlator = {'UC - Berkeley': 'BERKELEY', 
           'UC - Santa Barbara': 'SANTA BARBARA', 
+          'UC - San Francisco': 'SAN FRANCISCO', 
           'UC - Santa Cruz':'SANTA CRUZ', 
           'UC - Riverside':'RIVERSIDE',
           'UC - Los Angeles': 'LOS ANGELES',
           'UC - San Diego': 'SAN DIEGO',
+          'UC - Merced': 'MERCED',
           'UC - Irvine':'IRVINE',
           'UC - Davis': 'DAVIS'
       }
@@ -160,15 +162,24 @@ fin_mgr = basic_report_pay(a2015,title_name='Financial/MGR',match_list=['financ'
 
 fundraiser = basic_report_pay(a2015,title_name='Fundraisers',match_list=['fund'],exclude_list=[])
 
+health = basic_report_pay(a2015,title_name='Nurse',match_list=['nurse'],exclude_list=[])
+health += basic_report_pay(a2015,title_name='Physician',match_list=['phys'],exclude_list=[])
+health += basic_report_pay(a2015,title_name='Vetinarian',match_list=['vet'],exclude_list=[])
 
 
 print "Teachers    : ", teaching
 print "Researchers : ", research
 print "Athletics   : ", athletics
+print "Health      : ", health
 total = a2015[a2015['Department / Subdivision'] == place]['Total Wages'].sum()
 print "Total Wages : ", total
 
 
-ratio = (teaching+research)*(1.0)/total
+if place in ['UC - Los Angeles', 'UC - Davis', 'UC - San Francisco','UC - Irvine']:
+    good_stuff = teaching+research+health
+else:
+    good_stuff = teaching+research
+
+ratio = good_stuff*(1.0)/total
 print "Direct Teaching/Research Fraction", ratio
-print "Total overhead to .545: ", total-(teaching+research) - ((teaching+research)*.545/.455)
+print "Total overhead to .545: ", total-(good_stuff) - ((good_stuff)*.545/.455)
