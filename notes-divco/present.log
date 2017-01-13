@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  12 DEC 2016 11:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.16)  14 DEC 2016 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,59 +986,59 @@ LaTeX Info: Redefining \includegraphics on input line 9.
 
 ] [3
 
-] [4
-
 ]
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 52
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 54
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 52
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 54
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 52
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 54
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7.4> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
- [5
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 54.
+ [4
+
+] [5
 
 ] [6
 
 ] [7
 
-] [8
-
 ]
-[9
+[8
+
+] [9
 
 ] [10
 
@@ -1066,10 +1066,10 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 
 ] [22
 
-] [23
-
 ]
-[24
+[23
+
+] [24
 
 ] [25
 
@@ -1089,87 +1089,85 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 
 ] [33
 
-] [34
-
 ]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 173.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 175.
 
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 35 undefined on input line 173.
+ort.pdf' on page 34 undefined on input line 175.
+
+[34
+
+]
+
+LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
+ort.pdf' on page 35 undefined on input line 175.
 
 [35
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 36 undefined on input line 173.
+ort.pdf' on page 36 undefined on input line 175.
 
 [36
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 37 undefined on input line 173.
+ort.pdf' on page 37 undefined on input line 175.
 
 [37
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 38 undefined on input line 173.
+ort.pdf' on page 38 undefined on input line 175.
 
 [38
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 39 undefined on input line 173.
+ort.pdf' on page 39 undefined on input line 175.
 
 [39
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 40 undefined on input line 173.
+ort.pdf' on page 40 undefined on input line 175.
 
 [40
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 41 undefined on input line 173.
+ort.pdf' on page 41 undefined on input line 175.
 
 [41
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 42 undefined on input line 173.
+ort.pdf' on page 42 undefined on input line 175.
 
 [42
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 43 undefined on input line 173.
+ort.pdf' on page 43 undefined on input line 175.
 
 [43
 
 ]
 
 LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 44 undefined on input line 173.
+ort.pdf' on page 44 undefined on input line 175.
 
 [44
-
-]
-
-LaTeX Warning: Reference `http://www.nacubo.org/documents/research/cofcfinalrep
-ort.pdf' on page 45 undefined on input line 173.
-
-[45
 
 ]
 \tf@nav=\write7
@@ -1181,22 +1179,22 @@ ort.pdf' on page 45 undefined on input line 173.
 \tf@snm=\write9
 \openout9 = `present.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./present.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `present.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 16188 strings out of 493304
- 295863 string characters out of 6139871
+ 16187 strings out of 493304
+ 295856 string characters out of 6139871
  371253 words of memory out of 5000000
  19150 multiletter control sequences out of 15000+600000
  25576 words of font info for 60 fonts, out of 8000000 for 9000
@@ -1205,14 +1203,17 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{http://www.nacubo.org/documents/research/cofcfina
 lreport.pdf} has been referenced but does not exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{Navigation45} has been referenced but does not exis
+t, replaced by a fixed one
+
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on present.pdf (45 pages, 107128 bytes).
+Output written on present.pdf (44 pages, 105714 bytes).
 PDF statistics:
- 1223 PDF objects out of 1440 (max. 8388607)
- 1155 compressed objects within 12 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 1199 PDF objects out of 1200 (max. 8388607)
+ 1132 compressed objects within 12 object streams
+ 91 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

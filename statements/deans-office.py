@@ -1,4 +1,5 @@
 import pandas as pd
+
 a = pd.read_csv("expenditures.csv")
 a.columns
 a['Unnamed: 1']

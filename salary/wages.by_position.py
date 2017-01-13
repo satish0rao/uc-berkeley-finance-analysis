@@ -1,8 +1,13 @@
 import pandas as pd
 import os
+import sys
+
+place = 'UC - Berkeley'
+if len(sys.argv) > 1:
+    place = sys.argv[1]
 
 a = pd.read_csv("data/2015_UniversityOfCalifornia.csv")
-b = a[a['Department / Subdivision']== 'UC - Berkeley']
+b = a[a['Department / Subdivision']== place]
 c = b.groupby('Position')
 c['Total Wages'].sum().to_csv("wages2015.csv")
 c['Total Wages'].count().to_csv("count2015.csv")
@@ -13,4 +18,4 @@ os.system('cat junk count2015.csv > hcount2015.csv')
 d = pd.read_csv("hwages2015.csv")
 d = pd.merge(d,pd.read_csv("hcount2015.csv"))
 e = d.sort_values('Wages')
-e.to_csv("wages.by_position.2015.csv")
+e.to_csv("wages.by_position.2015." + place + ".csv")

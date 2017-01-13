@@ -84,6 +84,6 @@ research += basic_report_pay(a2015,title_name='Scientist ',match_list=['scientis
 
 print "Teachers    : ", teaching
 print "Researchers : ", research
-print "Total Wages : ", a2015[a2015['Department / Subdivision'] == 'UC - Berkeley']['Total Wages'].sum()
+print "Total Wages : ", a2015[a2015['Department / Subdivision'] == 'UC - Santa Barbara']['Total Wages'].sum()
 
 
