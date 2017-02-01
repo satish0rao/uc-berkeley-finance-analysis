@@ -1,0 +1,30 @@
+varnumber,varname,DataType,Fieldwidth,format,imputationvar,varTitle
+1,UNITID,N,6,Cont,,Unique identification number of the institution
+40606,SANIN01,N,6,Cont,XSANIN01,Full-time non-instructional staff - number
+40611,SANIT01,N,10,Cont,XSANIT01,Full-time non-instructional staff - outlays
+40616,SANIN02,N,6,Cont,XSANIN02,Research - number
+40621,SANIT02,N,10,Cont,XSANIT02,Research - outlays
+40626,SANIN03,N,6,Cont,XSANIN03,Public service - number
+40631,SANIT03,N,10,Cont,XSANIT03,Public service - Outlays
+40636,SANIN04,N,6,Cont,XSANIN04,"Librarians, Curators, Archivists, and Academic Affairs and Other Education Services  - number"
+40641,SANIT04,N,10,Cont,XSANIT04,"Librarians, Curators, Archivists and Academic Affairs and Other Education Services - outlays"
+40646,SANIN05,N,6,Cont,XSANIN05,Management - number
+40651,SANIT05,N,10,Cont,XSANIT05,Management - outlays
+40656,SANIN06,N,6,Cont,XSANIN06,Business and Financial Operations - number
+40661,SANIT06,N,10,Cont,XSANIT06,Business and Financial Operations - outlays
+40666,SANIN07,N,6,Cont,XSANIN07,"Computer, Engineering, and Science - number"
+40671,SANIT07,N,10,Cont,XSANIT07,"Computer, Engineering, and Science - outlays"
+40676,SANIN08,N,6,Cont,XSANIN08,"Community, Social  Service, Legal, Arts, Design, Entertainment, Sports and Media - number"
+40681,SANIT08,N,10,Cont,XSANIT08,"Community, Social  Service, Legal, Arts, Design, Entertainment, Sports and Media - outlays"
+40686,SANIN09,N,6,Cont,XSANIN09,Healthcare Practioners and Technical -number
+40691,SANIT09,N,10,Cont,XSANIT09,Healthcare Practioners and Technical - outlays
+40696,SANIN10,N,6,Cont,XSANIN10,Service - number
+40701,SANIT10,N,10,Cont,XSANIT10,Service - outlays
+40706,SANIN11,N,6,Cont,XSANIN11,Sales and related - number
+40711,SANIT11,N,10,Cont,XSANIT11,Sales and related - outlays
+40716,SANIN12,N,6,Cont,XSANIN12,Office and Administrative Support - number
+40721,SANIT12,N,10,Cont,XSANIT12,Office and Administrative Support - outlays
+40726,SANIN13,N,6,Cont,XSANIN13,"Natural Resources, Construction, and Maintenance - number"
+40731,SANIT13,N,10,Cont,XSANIT13,"Natural Resources, Construction, and Maintenance - outlays"
+40736,SANIN14,N,6,Cont,XSANIN14,"Production, Transportation, and Material Moving - number"
+40741,SANIT14,N,10,Cont,XSANIT14,"Production, Transportation, and Material Moving - outlays"

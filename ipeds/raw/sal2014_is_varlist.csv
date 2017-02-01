@@ -1,0 +1,27 @@
+varnumber,varname,DataType,Fieldwidth,format,imputationvar,varTitle
+1,UNITID,N,6,Cont,,Unique identification number of the institution
+40106,ARANK,N,2,Disc,,Academic rank
+40113,SATOTLT,N,6,Cont,XSATOTLT,"Instructional staff on 9, 10, 11 or 12 month contract-total"
+40107,SATOTLM,N,6,Cont,XSATOTLM,"Instructional staff on 9, 10, 11 or 12 month contract-men"
+40110,SATOTLW,N,6,Cont,XSATOTLW,"Instructional staff on 9, 10, 11 or 12 month contract-women"
+40501,SA09MCT,N,6,Cont,XSA09MCT,Instructional staff on 9-month contract-total
+40506,SA09MCM,N,6,Cont,XSA09MCM,Instructional staff on 9-month contract-men
+40511,SA09MCW,N,6,Cont,XSA09MCW,Instructional staff on 9-month contract-women
+40516,SA10MCT,N,6,Cont,XSA10MCT,Instructional staff on 10-month contract-total
+40521,SA10MCM,N,6,Cont,XSA10MCM,Instructional staff on 10-month contract-men
+40526,SA10MCW,N,6,Cont,XSA10MCW,Instructional staff on 10-month contract-women
+40531,SA11MCT,N,6,Cont,XSA11MCT,Instructional staff on 11-month contract-total
+40536,SA11MCM,N,6,Cont,XSA11MCM,Instructional staff on 11-month contract-men
+40541,SA11MCW,N,6,Cont,XSA11MCW,Instructional staff on 11-month contract-women
+40546,SA12MCT,N,6,Cont,XSA12MCT,Instructional staff on 12-month contract total
+40551,SA12MCM,N,6,Cont,XSA12MCM,Instructional staff on 12-month contract men
+40556,SA12MCW,N,6,Cont,XSA12MCW,Instructional staff on 12--month contract women
+40561,SAMNTHT,N,8,Cont,XSAMNTHT,Number months covered for salary outlays - total
+40566,SAMNTHM,N,8,Cont,XSAMNTHM,Number of months covered for salary outlays - men
+40571,SAMNTHW,N,8,Cont,XSAMNTHW,Number of months covered for salary outlays - women
+40576,SAOUTLT,N,10,Cont,XSAOUTLT,Salary outlays - total
+40581,SAOUTLM,N,10,Cont,XSAOUTLM,Salary outlays - men
+40586,SAOUTLW,N,10,Cont,XSAOUTLW,Salary outlays - women
+40591,SAAVMNT,N,6,Cont,XSAAVMNT,Average weighted monthly salary  - total
+40596,SAAVMNM,N,6,Cont,XSAAVMNM,Average weighted monthly salary  - men
+40601,SAAVMNW,N,6,Cont,XSAAVMNW,Average weighted monthly salary  - women

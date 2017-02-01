@@ -1,0 +1,163 @@
+varnumber,varname,DataType,Fieldwidth,format,imputationvar,varTitle
+1,UNITID,N,6,Cont,,Unique identification number of the institution
+61386,F1A01,N,12,Cont,XF1A01,Total current assets
+65001,F1A31,N,12,Cont,XF1A31,"Depreciable capital assets, net of depreciation"
+61401,F1A04,N,12,Cont,XF1A04,Other noncurrent assets
+61406,F1A05,N,12,Cont,XF1A05,Total noncurrent assets
+61411,F1A06,N,12,Cont,XF1A06,Total assets
+61416,F1A07,N,12,Cont,XF1A07,"Long-term debt, current portion"
+61421,F1A08,N,12,Cont,XF1A08,Other current liabilities
+61426,F1A09,N,12,Cont,XF1A09,Total current liabilities
+61431,F1A10,N,12,Cont,XF1A10,Long-term debt
+61436,F1A11,N,12,Cont,XF1A11,Other noncurrent liabilities
+61441,F1A12,N,12,Cont,XF1A12,Total noncurrent liabilities
+61446,F1A13,N,12,Cont,XF1A13,Total liabilities
+61451,F1A14,N,12,Cont,XF1A14,"Invested in capital assets, net of related debt"
+61456,F1A15,N,12,Cont,XF1A15,Restricted-expendable
+61461,F1A16,N,12,Cont,XF1A16,Restricted-nonexpendable
+61466,F1A17,N,12,Cont,XF1A17,Unrestricted
+61471,F1A18,N,12,Cont,XF1A18,Total net assets
+61491,F1A214,N,12,Cont,XF1A214,Land  improvements - Ending balance
+61511,F1A224,N,12,Cont,XF1A224,Infrastructure - Ending balance
+61531,F1A234,N,12,Cont,XF1A234,Buildings - Ending balance
+65006,F1A324,N,12,Cont,XF1A324,"Equipment, including art and library collections - Ending balance"
+61611,F1A274,N,12,Cont,XF1A274,Construction in progress - Ending balance
+61615,F1A27T4,N,12,Cont,XF1A27T4,"Total for plant, property and equipment - Ending balance"
+61631,F1A284,N,12,Cont,XF1A284,Accumulated depreciation - Ending balance
+65011,F1A334,N,12,Cont,XF1A334,"Intangible assets , net of accumulated amortization - Ending balance"
+65016,F1A344,N,12,Cont,XF1A344,Other capital assets - Ending balance (New Aligned)
+61636,F1B01,N,12,Cont,XF1B01,"Tuition and fees, after deducting discounts and allowances"
+61641,F1B02,N,12,Cont,XF1B02,Federal operating grants and contracts
+61646,F1B03,N,12,Cont,XF1B03,State operating grants and contracts
+61651,F1B04,N,12,Cont,XF1B04,Local/private operating grants and contracts
+65021,F1B04A,N,12,Cont,XF1B04A,Local operating grants and contracts
+65026,F1B04B,N,12,Cont,XF1B04B,Private operating grants and contracts
+61656,F1B05,N,12,Cont,XF1B05,Sales and services of auxiliary enterprises
+61661,F1B06,N,12,Cont,XF1B06,Sales and services of hospitals
+65031,F1B26,N,12,Cont,XF1B26,Sales and services of educational activities
+61666,F1B07,N,12,Cont,XF1B07,Independent operations
+61671,F1B08,N,12,Cont,XF1B08,Other sources - operating
+61676,F1B09,N,12,Cont,XF1B09,Total operating revenues
+61681,F1B10,N,12,Cont,XF1B10,Federal appropriations
+61686,F1B11,N,12,Cont,XF1B11,State appropriations
+61691,F1B12,N,12,Cont,XF1B12,"Local appropriations, education district taxes, and similar support"
+61696,F1B13,N,12,Cont,XF1B13,Federal nonoperating grants
+61701,F1B14,N,12,Cont,XF1B14,State nonoperating grants
+61706,F1B15,N,12,Cont,XF1B15,Local nonoperating grants
+61711,F1B16,N,12,Cont,XF1B16,"Gifts, including contributions from affiliated organizations"
+61716,F1B17,N,12,Cont,XF1B17,Investment income
+61821,F1B18,N,12,Cont,XF1B18,Other nonoperating revenues
+61826,F1B19,N,12,Cont,XF1B19,Total nonoperating revenues
+65033,F1B27,N,12,Cont,XF1B27,Total operating and nonoperating revenues
+61831,F1B20,N,12,Cont,XF1B20,Capital appropriations
+61836,F1B21,N,12,Cont,XF1B21,Capital grants and gifts
+61841,F1B22,N,12,Cont,XF1B22,Additions to permanent endowments
+61846,F1B23,N,12,Cont,XF1B23,Other revenues and additions
+61851,F1B24,N,12,Cont,XF1B24,Total other revenues and additions
+61856,F1B25,N,12,Cont,XF1B25,Total all revenues and other additions
+61861,F1C011,N,12,Cont,XF1C011,Instruction - Current year total
+61866,F1C012,N,12,Cont,XF1C012,Instruction - Salaries and wages
+61871,F1C013,N,12,Cont,XF1C013,Instruction - Employee fringe benefits
+65036,F1C016,N,12,Cont,XF1C016,Instruction - Operations and maintenance of plant
+61876,F1C014,N,12,Cont,XF1C014,Instruction - Depreciation
+65037,F1C017,N,12,Cont,XF1C017,Instruction - Interest
+61881,F1C015,N,12,Cont,XF1C015,Instruction - All other
+61886,F1C021,N,12,Cont,XF1C021,Research - Current year total
+61891,F1C022,N,12,Cont,XF1C022,Research - Salaries and wages
+61896,F1C023,N,12,Cont,XF1C023,Research - Employee fringe benefits
+65041,F1C026,N,12,Cont,XF1C026,Research - Operations and maintenance of plant
+61901,F1C024,N,12,Cont,XF1C024,Research - Depreciation
+65042,F1C027,N,12,Cont,XF1C027,Research - Interest
+61906,F1C025,N,12,Cont,XF1C025,Research - All other
+61911,F1C031,N,12,Cont,XF1C031,Public service - Current year total
+61916,F1C032,N,12,Cont,XF1C032,Public service - Salaries and wages
+61921,F1C033,N,12,Cont,XF1C033,Public service - Employee fringe benefits
+65046,F1C036,N,12,Cont,XF1C036,Public service - Operations and maintenance of plant
+61926,F1C034,N,12,Cont,XF1C034,Public service - Depreciation
+65047,F1C037,N,12,Cont,XF1C037,Public service - Interest
+61931,F1C035,N,12,Cont,XF1C035,Public service - All other
+61936,F1C051,N,12,Cont,XF1C051,Academic support - Current year total
+61941,F1C052,N,12,Cont,XF1C052,Academic support - Salaries and wages
+61946,F1C053,N,12,Cont,XF1C053,Academic support - Employee fringe benefits
+65051,F1C056,N,12,Cont,XF1C056,Academic support - Operations and maintenance of plant
+61951,F1C054,N,12,Cont,XF1C054,Academic support - Depreciation
+65052,F1C057,N,12,Cont,XF1C057,Academic support - Interest
+61956,F1C055,N,12,Cont,XF1C055,Academic support - All other
+61961,F1C061,N,12,Cont,XF1C061,Student services - Current year total
+61966,F1C062,N,12,Cont,XF1C062,Student services - Salaries and wages
+61971,F1C063,N,12,Cont,XF1C063,Student services - Employee fringe benefits
+65056,F1C066,N,12,Cont,XF1C066,Student services - Operations and maintenance of plant
+61976,F1C064,N,12,Cont,XF1C064,Student services - Depreciation
+65057,F1C067,N,12,Cont,XF1C067,Student services - Interest
+61981,F1C065,N,12,Cont,XF1C065,Student services - All other
+61986,F1C071,N,12,Cont,XF1C071,Institutional support - Current year total
+61991,F1C072,N,12,Cont,XF1C072,Institutional support - Salaries and wages
+61996,F1C073,N,12,Cont,XF1C073,Institutional support - Employee fringe benefits
+65061,F1C076,N,12,Cont,XF1C076,Institutional support - Operations and maintenance of plant
+62001,F1C074,N,12,Cont,XF1C074,Institutional support - Depreciation
+65062,F1C077,N,12,Cont,XF1C077,Institutional support - Interest
+62006,F1C075,N,12,Cont,XF1C075,Institutional support - All other
+62011,F1C081,N,12,Cont,XF1C081,Operation  maintenance of plant - Current year total
+62016,F1C082,N,12,Cont,XF1C082,Operation  maintenance of plant - Salaries and wages
+62021,F1C083,N,12,Cont,XF1C083,Operation  maintenance of plant - Employee fringe benefits
+65066,F1C086,N,12,Cont,XF1C086,Operation maintenance of plant - Operation and maintenance of plant
+62026,F1C084,N,12,Cont,XF1C084,Operation  maintenance of plant - Depreciation
+65067,F1C087,N,12,Cont,XF1C087,Operation maintenance of plant - Interest
+62031,F1C085,N,12,Cont,XF1C085,Operation  maintenance of plant - All other
+62046,F1C101,N,12,Cont,XF1C101,Scholarships and fellowships expenses -- Current year total
+62066,F1C105,N,12,Cont,XF1C105,Scholarships and fellowships expenses -- All other
+62071,F1C111,N,12,Cont,XF1C111,Auxiliary enterprises -- Current year total
+62076,F1C112,N,12,Cont,XF1C112,Auxiliary enterprises -- Salaries and wages
+62081,F1C113,N,12,Cont,XF1C113,Auxiliary enterprises -- Employee fringe benefits
+65071,F1C116,N,12,Cont,XF1C116,Auxiliary enterprises -  Operations and maintenance of plant
+62086,F1C114,N,12,Cont,XF1C114,Auxiliary enterprises -- Depreciation
+65072,F1C117,N,12,Cont,XF1C117,Auxiliary enterprises - Interest
+62091,F1C115,N,12,Cont,XF1C115,Auxiliary enterprises -- All other
+62096,F1C121,N,12,Cont,XF1C121,Hospital services - Current year total
+62101,F1C122,N,12,Cont,XF1C122,Hospital services - Salaries and wages
+62106,F1C123,N,12,Cont,XF1C123,Hospital services - Employee fringe benefits
+65076,F1C126,N,12,Cont,XF1C126,Hospital services -  Operations and maintenance of plant
+62111,F1C124,N,12,Cont,XF1C124,Hospital services - Depreciation
+65077,F1C127,N,12,Cont,XF1C127,Hospital services - Interest
+62116,F1C125,N,12,Cont,XF1C125,Hospital services - All other
+62121,F1C131,N,12,Cont,XF1C131,Independent operations - Current year total
+62126,F1C132,N,12,Cont,XF1C132,Independent operations - Salaries and wages
+62131,F1C133,N,12,Cont,XF1C133,Independent operations - Employee fringe benefits
+65081,F1C136,N,12,Cont,XF1C136,Independent operations -  Operations and maintenance of plant
+62136,F1C134,N,12,Cont,XF1C134,Independent operations - Depreciation
+65082,F1C137,N,12,Cont,XF1C137,Independent operations - Interest
+62141,F1C135,N,12,Cont,XF1C135,Independent operations - All other
+62146,F1C141,N,12,Cont,XF1C141,Other expenses  deductions - Current year total
+62151,F1C142,N,12,Cont,XF1C142,Other expenses  deductions - Salaries and wages
+62156,F1C143,N,12,Cont,XF1C143,Other expenses  deductions - Employee fringe benefits
+65086,F1C146,N,12,Cont,XF1C146,Other expenses deductions -  Operations and maintenance of plant
+62161,F1C144,N,12,Cont,XF1C144,Other expenses  deductions - Depreciation
+65087,F1C147,N,12,Cont,XF1C147,Other expenses deductions - Interest
+62166,F1C145,N,12,Cont,XF1C145,Other expenses  deductions - All other
+62256,F1C191,N,12,Cont,XF1C191,Total expenses  deductions - Current year total
+62261,F1C192,N,12,Cont,XF1C192,Total expenses  deductions - Salaries and wages
+62266,F1C193,N,12,Cont,XF1C193,Total expenses  deductions - Employee fringe benefits
+62268,F1C196,N,12,Cont,XF1C196,Total expenses deductions - Operations and maintenance of plant
+62271,F1C194,N,12,Cont,XF1C194,Total expenses  deductions - Depreciation
+65088,F1C197,N,12,Cont,XF1C197,Total expenses deductions - Interest
+62276,F1C195,N,12,Cont,XF1C195,Total expenses  deductions - All other
+62281,F1D01,N,12,Cont,XF1D01,Total revenues and other additions
+62286,F1D02,N,12,Cont,XF1D02,Total expenses and other deductions
+62291,F1D03,N,12,Cont,XF1D03,Change in net position during the year
+62296,F1D04,N,12,Cont,XF1D04,Net position beginning of year
+62301,F1D05,N,12,Cont,XF1D05,Adjustments to beginning net position
+62306,F1D06,N,12,Cont,XF1D06,Net position end of year
+62321,F1E01,N,12,Cont,XF1E01,Pell grants (federal)
+62326,F1E02,N,12,Cont,XF1E02,Other federal grants
+62331,F1E03,N,12,Cont,XF1E03,Grants by state government
+62336,F1E04,N,12,Cont,XF1E04,Grants by local government
+62341,F1E05,N,12,Cont,XF1E05,Institutional grants from restricted resources
+62346,F1E06,N,12,Cont,XF1E06,Institutional grants from unrestricted resources
+62351,F1E07,N,12,Cont,XF1E07,Total gross scholarships and fellowships
+62356,F1E08,N,12,Cont,XF1E08,Discounts and allowances applied to tuition and fees
+62361,F1E09,N,12,Cont,XF1E09,Discounts and allowances applied to sales & services of auxiliary enterprises
+62366,F1E10,N,12,Cont,XF1E10,Total discounts and allowances
+62371,F1E11,N,12,Cont,XF1E11,Net scholarships and fellowship expenses
+62376,F1FHA,N,2,Disc,,Does this institution or any of its foundations or other affiliated organizations own endowment assets ?
+62311,F1H01,N,12,Cont,XF1H01,Value of endowment assets at the beginning of the fiscal year
+62316,F1H02,N,12,Cont,XF1H02,Value of endowment assets at the end of the fiscal year
