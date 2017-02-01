@@ -1,0 +1,13 @@
+@article{DBLP:journals/jmlr/Recht11,
+  author    = {Benjamin Recht},
+  title     = {A Simpler Approach to Matrix Completion},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {12},
+  pages     = {3413--3430},
+  year      = {2011},
+  url       = {http://dl.acm.org/citation.cfm?id=2185803},
+  timestamp = {Thu, 03 May 2012 15:41:30 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jmlr/Recht11},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+

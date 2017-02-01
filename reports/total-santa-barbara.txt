@@ -1,0 +1,443 @@
+Generating report for  UC - Santa Barbara
+**************
+***UC - Santa Barbara 2011***
+**************
+
+Professors Position titles: all
+PROFESSOR - ACADEMIC YEAR         410
+ASSOCIATE PROFESSOR-ACAD YR       167
+PROFESSOR-ACAD YR-BUS/ECON/ENG    113
+ASSISTANT PROFESSOR-ACAD YR        59
+RESEARCH PROFESSOR                 24
+VST ASST PROFESSOR-ACADEMIC YR     21
+ASST PROF-ACAD YR-BUS/ECON/ENG     18
+PROFESSOR-ACAD YR-RECALLED         14
+ASSOC PROF-AY-BUS/ECON/ENG         14
+VISITING PROFESSOR-ACADEMIC YR     14
+VST ASSOC PROFESSOR-ACAD YR         6
+PROFESSOR RECALLED-ACAD YR-1/9      4
+VST PROFESSOR-ACAD YR-1/9 PMT       4
+PROF-AY-BUS/ECON/ENG-RECALLED       3
+ADJUNCT PROFESSOR-ACAD YR-1/9       2
+ASST ADJUNCT PROF-ACAD YR-1/9       2
+ADJUNCT PROFESSOR-ACADEMIC YR       1
+VST ASST PROFESSOR-ACAD YR-1/9      1
+ACTING PROFESSOR-ACADEMIC YR        1
+ASSOC ADJUNCT PROFESSOR - AY        1
+VST ASSOC PROFESSOR-AY-1/9TH        1
+ACT ASST PROFESSOR-ACADEMIC YR      1
+PROFESSOR EMERITUS (W/O SAL)        1
+MGT AND PROF PROG (UNTITLED)        1
+ACT ASSOC PROFESSOR-ACAD YR         1
+ACT AST PROF-AY-BUS/ECON/ENG        1
+Name: title, dtype: int64
+Professors Count:  885
+Professors Total Wages:  106035260.19
+
+
+lect Position titles: all
+LECTURER - ACADEMIC YEAR - 1/9    124
+LECTURER-AY-CONTINUING APPT.       88
+LECTURER - ACADEMIC YEAR           81
+LECTURER IN SUMMER SESSION         25
+LECTURER W/SEC EMPL-ACAD YR        11
+SR LECT W/SEC EMPL-ACADEMIC YR     10
+LECTURER-AY-1/9-CONTINUING         10
+LECTURER-PSOE-ACAD YR-100%          8
+SR. LECTURER-AY-CONTINUING          7
+LECTURER-MISC/PART-TIME             1
+SR LECT W/SEC EMPL EMERITUS         1
+SR LECTURER - ACADEMIC YEAR         1
+SR LECT W/SEC-AY-RECALL-1/9TH       1
+SR LECT W/SEC-ACAD YR -RECALL       1
+Name: title, dtype: int64
+lect Count:  369
+lect Total Wages:  13157863.39
+
+
+Research Position titles: all
+GRAD STDNT RES-TUIT & FEE REM     833
+RESIDENT ASST                     155
+STAFF RESEARCH ASSOC II            52
+GRAD STDNT RES-PARTIAL FEE REM     42
+STAFF RESEARCH ASSOC I             42
+GRAD STDNT RES- NO REMISSION       28
+RESEARCH _____ - FISCAL YEAR       28
+ASST RES ----- - FISCAL YEAR       26
+RESEARCH PROFESSOR                 24
+RESIDENT ADVISOR                   23
+RESIDENT DIRECTOR I                19
+STAFF RESEARCH ASSOC III           18
+ASSOC RES ---- - FISCAL YEAR       14
+VST RES ---- - FISCAL YEAR          9
+VST ASSOC RES ---- - FISCAL YR      8
+STAFF RESEARCH ASSOC. V             8
+PARKING REPRESENTATIVE, SR          7
+PROGRAM REPRESENTATIVE II           7
+COMPUTER RESOURCE SPEC. I           7
+STAFF RESEARCH ASSOC IV             6
+ASSOC RES --- -FY-BUS/ECON/ENG      6
+RESCUE WORKER                       6
+VST ASST RES ----- -FISCAL YR       5
+COMPUTER RESOURCE SPEC. II          5
+RESEARCH____ - ACADEMIC YEAR        5
+ASST RES ---- -FY-BUS/ECON/ENG      5
+RESIDENCE HALLS MANAGER             5
+RES ----- -FY-BUS/ECON/ENG          4
+RESIDENCE HALLS MANAGER, ASST       3
+STORES SUPVR                        3
+RES___-AY-1/9-BUS/ECON/ENG          2
+PROGRAM REPRESENTATIVE III          2
+RES ---- - RECALLED                 2
+COLLECTIONS REPRESENTATIVE, SR      2
+RES --- - ACAD YR- 1/9TH PYMT       1
+PROGRAM REPRESENTATIVE III-SUP      1
+EMPLOYMENT REPRESENTATIVE, SR       1
+RESOURCES MANAGER                   1
+ASSISTANT RESEARCH ___-ACAD YR      1
+PARKING REPRESENTATIVE, LEAD        1
+GRAD STDNT ASST RES- GSHIP          1
+Name: title, dtype: int64
+Research Count:  1418
+Research Total Wages:  31847295.25
+
+
+mgr 2011 Position titles: all
+FOOD SERVICE MGR, ASST            4
+ASSOC. MGR (FUNCT. AREA)          4
+FOOD SERVICE MGR, ASST-SUPVR      4
+PROGRAM PROMOTION MGR SUPV        1
+PUBLIC EVENTS MGR, SR - SUPERV    1
+Name: title, dtype: int64
+mgr 2011 Count:  14
+mgr 2011 Total Wages:  833425.9
+
+
+museum Position titles: all
+SCIENTIST, MUSEUM, PRIN    6
+SCIENTIST, MUSEUM          3
+SCIENTIST, MUSEUM, SR      2
+SCIENTIST, MUSEUM, ASST    1
+Name: title, dtype: int64
+museum Count:  12
+museum Total Wages:  564653.23
+
+Total 376689612.22
+Research 31847295.25
+Prof + Lect + Mueseum 119193123.58
+**************
+***UC - Santa Barbara 2015***
+**************
+
+Professors Position titles: all
+Prof-Ay                424
+Assoc Prof-Ay          143
+Prof-Ay-B/E/E          115
+Asst Prof-Ay            84
+Assoc Prof-Ay-B/E/E     24
+Vis Asst Prof           24
+Asst Prof-Ay-B/E/E      18
+Vis Prof                12
+Vis Assoc Prof           5
+Assoc Adj Prof-Ay        3
+Act Prof-Ay              2
+Asst Adj Prof-Ay         2
+Adj Prof-Ay-B/E/E        1
+Adj Prof-Ay              1
+Name: Position, dtype: int64
+Professors Count:  858
+Professors Total Wages:  122145082
+
+
+Lecturer Position titles: all
+Lect-Ay-1/9                     151
+Lect-Ay-Continuing               99
+Lect-Ay                          89
+Lect In Summer Session           45
+Sr Lect Soe-Ay                   16
+Lect Soe-Ay                      12
+Lect-Ay-1/9-Continuing           10
+Sr Lect-Ay-Continuing            10
+Lect Psoe-Ay-100%                 7
+Lect-Miscellaneous/Part Time      2
+Name: Position, dtype: int64
+Lecturer Count:  441
+Lecturer Total Wages:  17600911
+
+
+Teaching Assistant Position titles: all
+Teachg Asst-Gship        1357
+Teachg Asst-Non Gship      27
+Teachg Fellow-Gship         1
+Name: Position, dtype: int64
+Teaching Assistant Count:  1385
+Teaching Assistant Total Wages:  19847127
+
+
+Teacher Position titles: all
+Teacher-Unex-Contract Yr         106
+Child Dev Ctr Teacher 2           26
+Supv Teacher Ed-Ay                 5
+Supv Teacher Ed-Ay-Continuing      3
+Teacher-Spec Prog                  2
+Name: Position, dtype: int64
+Teacher Count:  142
+Teacher Total Wages:  1755410
+
+
+GSR Position titles: all
+Gsr-Tuit & Fee Rem     741
+Gsr-No Rem              55
+Gsr-Partial Fee Rem     26
+Gsr-Full Fee Rem         1
+Name: Position, dtype: int64
+GSR Count:  823
+GSR Total Wages:  17151755
+
+
+PostDoc Position titles: all
+Postdoc-Employee    361
+Name: Position, dtype: int64
+PostDoc Count:  361
+PostDoc Total Wages:  13002377
+
+
+Research Associates Position titles: all
+Res-Fy                    25
+Asst Res-Fy               18
+Assoc Res-Fy              11
+Vis Res                    6
+Res-Ay                     5
+Res-Fy-B/E/E               4
+Vis Assoc Res              3
+Assoc Res-Fy-B/E/E         3
+Asst Res-Fy-B/E/E          3
+Vis Asst Res               2
+Res-Ay-1/9                 1
+Assoc Res-Ay-1/9-B/E/E     1
+Assoc Res-Ay               1
+Name: Position, dtype: int64
+Research Associates Count:  83
+Research Associates Total Wages:  6951904
+
+
+Scientist  Position titles: all
+Asst Proj Scientist-Fy           36
+Asst Proj Scientist-Fy-B/E/E     15
+Proj Scientist-Fy                14
+Assoc Proj Scientist-Fy-B/E/E     9
+Proj Scientist-Fy-B/E/E           7
+Assoc Proj Scientist-Fy           5
+Vis Asst Proj Scientist           3
+Name: Position, dtype: int64
+Scientist  Count:  89
+Scientist  Total Wages:  4740447
+
+
+Agronomists Position titles: all
+Series([], Name: Position, dtype: int64)
+Agronomists Count:  0
+Agronomists Total Wages:  0
+
+
+Coaches Position titles: all
+Intercol Ath Coach Ast Ex     41
+Intercol Ath Head Coach Ex    16
+Coach Spec                     4
+Name: Position, dtype: int64
+Coaches Count:  61
+Coaches Total Wages:  3467320
+
+
+Athletics Position titles: all
+Ath Trainer         7
+Ath Trainer Supv    2
+Name: Position, dtype: int64
+Athletics Count:  9
+Athletics Total Wages:  347945
+
+
+Trainers Position titles: all
+Police Trainee    1
+Name: Position, dtype: int64
+Trainers Count:  1
+Trainers Total Wages:  18055
+
+
+Deans Position titles: all
+Dean Ast                  16
+Dean                       7
+Act/Interim Dean           2
+Dean-Extended Learning     1
+Name: Position, dtype: int64
+Deans Count:  26
+Deans Total Wages:  4010262
+
+
+VC Position titles: all
+VC Stdt Affairs        2
+Exec VC And Provost    1
+VC Bus Admst           1
+VC Rsch                1
+Name: Position, dtype: int64
+VC Count:  5
+VC Total Wages:  1140237
+
+
+Food SVC Position titles: all
+Food Svc Worker Sr       25
+Food Svc Supv Prn        14
+Food Svc Mgr Sr          13
+Food Svc Crd              8
+Food Svc Mgr              7
+Food Svc Mgr Ast          6
+Food Svc Worker Ld        5
+Food Svc Mgr Ast Supv     4
+Food Svc Worker           1
+Name: Position, dtype: int64
+Food SVC Count:  83
+Food SVC Total Wages:  3578418
+
+
+Custodial Position titles: all
+Custodian Sr          177
+Custodian               4
+Custodian Ld            2
+Custodian Prn Supv      1
+Name: Position, dtype: int64
+Custodial Count:  184
+Custodial Total Wages:  7147466
+
+
+Std Svc Position titles: all
+Stdt Activities Appt Official    155
+Stdt Affairs Ofcr 2              113
+Stdt Affairs Ofcr 1 Pd            88
+Stdt Affairs Ofcr 3 Ex            84
+Stdt Aid Outside Agency           80
+Stdt Affairs Ofcr 1               71
+Stdt Affairs Ofcr 4 Supv          34
+Stdt Affairs Ofcr 4               23
+Stdt Affairs Ofcr 5 Supv Ex       16
+Stdt Affairs Ofcr 3 Supv          12
+Stdt Health Physcn 5              10
+Stdt Affairs Ofcr 2 Supv           7
+Stdt Intern                        7
+Stdt Health Physcn 4               4
+Stdt Health Physcn 3 Pd            2
+VC Stdt Affairs                    2
+Stdt Health Physcn 4 Pd            1
+Stdt Health Physcn 5 Pd            1
+Stdt Health Dentist 4 Pd           1
+Name: Position, dtype: int64
+Std Svc Count:  711
+Std Svc Total Wages:  19040468
+
+
+Student  Position titles: all
+Stdt 1            3601
+Stdt 2            1416
+Stdt 3             250
+Stdt 4             131
+Stdt Volunteer     104
+Stdt 2 Non Uc       33
+Stdt 1 Non Uc       22
+Stdt 4 Non Uc        2
+Stdt 3 Non Uc        2
+Name: Position, dtype: int64
+Student  Count:  5561
+Student  Total Wages:  15662309
+
+
+Financial/MGR Position titles: all
+Mgr                         54
+Food Svc Mgr Sr             12
+Publ Events Mgr              8
+Food Svc Mgr                 7
+Publ Events Mgr Sr           7
+Food Svc Mgr Ast             6
+Rsdnc Halls Mgr              5
+Rsdnc Halls Mgr Ast          3
+Mgr Asc                      3
+Food Svc Mgr Ast Supv        3
+Nurse Practitioner Mgr 3     1
+Publications Mgr Supv        1
+Publ Events Mgr Ast          1
+Prg Promotion Mgr 2          1
+Pharmacist Sr Mgr            1
+Publications Mgr             1
+Univ House Mgr               1
+Publ Events Mgr Prn Supv     1
+Prg Promotion Mgr 1          1
+Name: Position, dtype: int64
+Financial/MGR Count:  117
+Financial/MGR Total Wages:  9206005
+
+
+Fundraisers Position titles: all
+Series([], Name: Position, dtype: int64)
+Fundraisers Count:  0
+Fundraisers Total Wages:  0
+
+
+Nurse Position titles: all
+Nurse Practitioner 2        6
+Clin Nurse 2                4
+Voc Nurse Sr                2
+Nurse Practitioner Mgr 3    1
+Nurse Practitioner 3        1
+Admin Nurse 3               1
+Name: Position, dtype: int64
+Nurse Count:  15
+Nurse Total Wages:  1050538
+
+
+Physician Position titles: all
+Stdt Health Physcn 5       10
+Phys Plt Supt Sr            8
+Phys Plt Supt Ast           5
+Phys Ther 2 Nex             4
+Stdt Health Physcn 4        4
+Physcn Ast                  3
+Consulting Physcn Shs       2
+Stdt Health Physcn 3 Pd     2
+Phys Plt Supt               2
+Stdt Health Physcn 5 Pd     1
+Staff Physcn                1
+Phys Ther 3 Supv Nex        1
+Phys Ther Ast 2             1
+Stdt Health Physcn 4 Pd     1
+Asc Physcn                  1
+Name: Position, dtype: int64
+Physician Count:  46
+Physician Total Wages:  3215624
+
+
+Vetinarian Position titles: all
+Series([], Name: Position, dtype: int64)
+Vetinarian Count:  0
+Vetinarian Total Wages:  0
+
+
+Museum/Curator Position titles: all
+Museum Sci Prn           6
+Museum Sci               3
+Museum Preparator Prn    2
+Museum Sci Sr            1
+Museum Sci Ast           1
+Name: Position, dtype: int64
+Museum/Curator Count:  13
+Museum/Curator Total Wages:  621785
+
+Teachers    :  161348530
+Alt Teachers:  155618904
+Researchers :  41846483
+Public Service :  621785
+Alt Research:  38699364
+Athletics   :  3833320
+Health      :  4266162
+Total Wages :  446800769
+Direct Teaching/Research Fraction 203816798 0.456169308876
+Alt Direct Teaching/Research Fraction 194940053 0.43630196393
+Total overhead to .566:  -22823189.5253
+Total overhead to .59:  -28662774.9024

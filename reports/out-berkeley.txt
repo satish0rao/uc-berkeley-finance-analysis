@@ -1,0 +1,26 @@
+
+Regular Pay
+
+Teachers    :  270796279
+Alt Teachers:  256672705
+Researchers :  125010938
+Public Service :  5599895
+Alt Research:  116801014
+Athletics   :  13343226
+Health      :  9939475
+Total Wages :  1082474437
+Direct Teaching/Research Fraction 401407112 0.370823640984
+Alt Direct Teaching/Research Fraction 379073614 0.350191746838
+
+Total Wages
+
+Teachers    :  329467959
+Alt Teachers:  312964416
+Researchers :  129525586
+Public Service :  5687515
+Alt Research:  121295662
+Athletics   :  22063904
+Health      :  10387454
+Total Wages :  1184953439
+Direct Teaching/Research Fraction 464681060 0.392151324015
+Alt Direct Teaching/Research Fraction 439947593 0.371278379825
