@@ -3,6 +3,8 @@ import sys
 
 place = 'UC - Berkeley'
 
+default_amount = 'Regular Pay'
+
 if len(sys.argv) > 1:
     place = sys.argv[1]
 
@@ -18,7 +20,8 @@ xlator = {'UC - Berkeley': 'BERKELEY',
           'UC - San Diego': 'SAN DIEGO',
           'UC - Merced': 'MERCED',
           'UC - Irvine':'IRVINE',
-          'UC - Davis': 'DAVIS'
+          'UC - Davis': 'DAVIS',
+          '':''
       }
 
 def id(places):
@@ -32,29 +35,49 @@ def xlate_places(places):
 
 def get_positions(a, place = 'UC Berkeley', contains = '', without = 'profl',case_sensitive=False):
     if case_sensitive:
-        return a[(a['Department / Subdivision'] == place) & 
-                 (a['Position'].notnull()) & a['Position'].str.contains(contains) & 
-                 ( ~a['Position'].str.contains(without))]
+        if place == '':
+            return a[(a['Position'].notnull()) & a['Position'].str.contains(contains) & 
+                     ( ~a['Position'].str.contains(without))]
+        else:
+            return a[(a['Department / Subdivision'] == place) & 
+                     (a['Position'].notnull()) & a['Position'].str.contains(contains) & 
+                     ( ~a['Position'].str.contains(without))]
     else:
-        return a[(a['Department / Subdivision'] == place) & 
-                 (a['Position'].notnull()) & a['Position'].str.lower().str.contains(contains) & 
-                 ( ~a['Position'].str.lower().str.contains(without))]
+        if place=='':
+            return a[(a['Position'].notnull()) & a['Position'].str.lower().str.contains(contains) & 
+                     ( ~a['Position'].str.lower().str.contains(without))]
+        else:
+            return a[(a['Department / Subdivision'] == place) & 
+                     (a['Position'].notnull()) & a['Position'].str.lower().str.contains(contains) & 
+                     ( ~a['Position'].str.lower().str.contains(without))]
 
 old_place = xlator[place]
 
 def old_get_positions(a,place,title="",without='XXXXX', pay_lb = 0.0,case_sensitive=False):
     if case_sensitive:
-        return a[(a['campus'] == place)  &
-                 a['gross'].notnull() &
-                 (a['gross'] > pay_lb) &
-                 a['title'].str.contains(title) &
-                 ~a['title'].str.contains(without)]
+        if place=='':
+            return a[a['gross'].notnull() &
+                     (a['gross'] > pay_lb) &
+                     a['title'].str.contains(title) &
+                     ~a['title'].str.contains(without)]
+        else:
+            return a[(a['campus'] == place)  &
+                     a['gross'].notnull() &
+                     (a['gross'] > pay_lb) &
+                     a['title'].str.contains(title) &
+                     ~a['title'].str.contains(without)]
     else:
-        return a[(a['campus'] == place)  &
-                 a['gross'].notnull() &
-                 (a['gross'] > pay_lb) &
-                 a['title'].str.lower().str.contains(title) &
-                 ~a['title'].str.lower().str.contains(without)]
+        if place=='':
+            return a[a['gross'].notnull() &
+                     (a['gross'] > pay_lb) &
+                     a['title'].str.lower().str.contains(title) &
+                     ~a['title'].str.lower().str.contains(without)]
+        else:
+            return a[(a['campus'] == place)  &
+                     a['gross'].notnull() &
+                     (a['gross'] > pay_lb) &
+                     a['title'].str.lower().str.contains(title) &
+                     ~a['title'].str.lower().str.contains(without)]
 
 
 def excluder(a,exclude_list=[],column_name='Position',case_sensitive=False):
@@ -68,7 +91,7 @@ def excluder(a,exclude_list=[],column_name='Position',case_sensitive=False):
 def old_excluder(a,exclude_list=[],column_name='Position',case_sensitive=False):
     return excluder(a,exclude_list,column_name='title',case_sensitive=case_sensitive)
 
-def basic_report_pay(a,title_name='',match_list=[],exclude_list=[],place=place,old=False,case_sensitive=False,category='Total Wages'):
+def basic_report_pay_internal(a,title_name='',match_list=[],exclude_list=[],place=place,old=False,case_sensitive=False,category=default_amount):
     amount = category
     if old:
         getter = old_get_positions
@@ -87,10 +110,27 @@ def basic_report_pay(a,title_name='',match_list=[],exclude_list=[],place=place,o
     got_this = getter(a,place,match_list[0],case_sensitive=case_sensitive)
     for i in xrange(1,len(match_list)):
         got_this = pd.concat([got_this,
-                              getter(a,place,match_list[i],case_sensitive=case_sensitive)])
+                              getter(a,place,match_list[i],case_sensitive=case_sensitive)]).drop_duplicates().reset_index(drop=True)
 
     got_this = excluding(got_this,exclude_list,case_sensitive=case_sensitive)
+    return got_this
 
+def basic_report_pay(a,title_name='',match_list=[],exclude_list=[],place=place,old=False,case_sensitive=False,category=default_amount):
+    if old:
+        getter = old_get_positions
+        excluding = old_excluder
+        title = 'title'
+        if category == 'Total Wages':
+            amount = 'gross'
+        elif category == 'Regular Pay':
+            amount = 'base'
+    else:
+        getter = get_positions
+        excluding = excluder
+        title = 'Position'
+        amount = category
+
+    got_this = basic_report_pay_internal(a,title_name=title_name,match_list=match_list,exclude_list=exclude_list,place=place,old=old,case_sensitive=case_sensitive,category=category)
     print
     print "%s Position titles: all\n" % title_name, got_this[title].value_counts()
     #print "Professor Position titles: lease common\n", profs2011['title'].value_counts().tail()
@@ -109,18 +149,28 @@ lect2011 = old_get_positions(a2011,old_place,'lect','intellectual')
 lect2011 = old_get_positions(lect2011,old_place,'lect','elect')
 lect2011 = old_get_positions(lect2011,old_place,'lect','collect')
 
+
+
+
 print "**************"
 print "***%s 2011***" % place
 print "**************"
 
-basic_report_pay(a2011,title_name='Professors', match_list=['prof'], exclude_list=['prof\'l','professional'],place=old_place, old=True)
+prof = basic_report_pay(a2011,title_name='Professors', match_list=['prof'], exclude_list=['prof\'l','professional'],place=old_place, old=True)
 
 
-basic_report_pay(a2011,title_name='lect', match_list=['lect'],exclude_list=['ellect','elect','collect'],place=old_place, old=True)
+lect = basic_report_pay(a2011,title_name='lect', match_list=['lect'],exclude_list=['ellect','elect','collect'],place=old_place, old=True)
 
-basic_report_pay(a2011,title_name='Research', match_list=['res'],exclude_list=[],place=old_place, old=True)
+research = basic_report_pay(a2011,title_name='Research', match_list=['res'],exclude_list=[],place=old_place, old=True)
 
 mgr2011 = basic_report_pay(a2011,title_name='mgr 2011', match_list=['mgr'],exclude_list=[],place=old_place, old=True)
+
+museum = basic_report_pay(a2011,title_name='museum', match_list=['museum'],exclude_list=[],place=old_place, old=True)
+
+total = a2011[a2011['campus'] == old_place]['gross'].sum()
+print "Total", total
+print "Research", research
+print "Prof + Lect + Mueseum", prof+lect
 
 
 print "**************"
@@ -129,16 +179,34 @@ print "**************"
 
 a2015 = pd.read_csv("data/2015_UniversityOfCalifornia.csv")
 
+#a2015 = a2015[~(a2015['Department / Subdivision'].isin(['UC - Los Angeles', 'UC - Davis', 'UC - San Francisco','UC - Irvine']))]
+
 #mgr2015 = basic_report_pay(a2015,title_name='mgr 2015', match_list=['mgr'],exclude_list=[],place=old_place, old=False)
 
 teaching = basic_report_pay(a2015,title_name='Professors',match_list=['prof'],exclude_list=['profl'])
 teaching += basic_report_pay(a2015,title_name='Lecturer',match_list=['lect'], exclude_list=['ellect','elect','collect'])
 teaching += basic_report_pay(a2015,title_name='Teaching Assistant',match_list=['teachg'], exclude_list=[])
 teaching += basic_report_pay(a2015,title_name='Teacher',match_list=['teacher'], exclude_list=[])
+teaching_df = basic_report_pay_internal(a2015,title_name='Teacher',match_list=['teacher'], exclude_list=[])
+for x in [['Professors',['prof'],['profl']],
+          ['Lecturer',['lect'],['ellect','elect','collect']],
+          ['Teaching Assistant',['teachg'],[]]]:
+    teaching_df = pd.concat([teaching_df,
+                             basic_report_pay_internal(a2015,title_name=x[0],match_list=x[1], exclude_list=x[2])]).drop_duplicates()
+          
+
 research =basic_report_pay(a2015,title_name='GSR',match_list=['gsr'], exclude_list=[])
 research += basic_report_pay(a2015,title_name='PostDoc',match_list=['postdoc'], exclude_list=[])
 research += basic_report_pay(a2015,title_name='Research Associates',match_list=['res'], exclude_list=['prof','survey','computer','stores'])
 research += basic_report_pay(a2015,title_name='Scientist ',match_list=['scientist'], exclude_list=['prof','survey','computer','stores'])
+research += basic_report_pay(a2015,title_name='Agronomists',match_list=['agron'], exclude_list=['prof','survey','computer','stores'])
+research_df = basic_report_pay_internal(a2015,title_name='Agronomists',match_list=['agron'], exclude_list=['prof','survey','computer','stores'])
+for x in [['GSR',['gsr'],[]],
+          ['PostDoc',['postdoc'],[]],
+          ['Research Associates',['res'],['prof','survey','computer','stores']],
+          ['Scientist',['scientist'],['prof','survey','computer','stores']]]:
+    research_df = pd.concat([research_df,
+                             basic_report_pay_internal(a2015,title_name=x[0],match_list=x[1], exclude_list=x[2])]).drop_duplicates()
 
 
 
@@ -167,19 +235,38 @@ health += basic_report_pay(a2015,title_name='Physician',match_list=['phys'],excl
 health += basic_report_pay(a2015,title_name='Vetinarian',match_list=['vet'],exclude_list=[])
 
 
+public_service = basic_report_pay(a2015,title_name='Museum/Curator',
+                                  match_list=['museum','curator'],exclude_list=[])
+
+
 print "Teachers    : ", teaching
+alt_teaching = teaching_df[default_amount].sum()
+print "Alt Teachers: ", alt_teaching
 print "Researchers : ", research
+print "Public Service : ", public_service
+alt_research = research_df[default_amount].sum()
+print "Alt Research: ", alt_research
 print "Athletics   : ", athletics
 print "Health      : ", health
-total = a2015[a2015['Department / Subdivision'] == place]['Total Wages'].sum()
+
+if (place != ''):
+    total = a2015[a2015['Department / Subdivision'] == place][default_amount].sum()
+else:
+    total = a2015[default_amount].sum()
 print "Total Wages : ", total
 
 
 if place in ['UC - Los Angeles', 'UC - Davis', 'UC - San Francisco','UC - Irvine']:
-    good_stuff = teaching+research+health
+    good_stuff = teaching+research+health+public_service
+    alt_good_stuff = alt_teaching+alt_research+health+public_service
 else:
-    good_stuff = teaching+research
+    good_stuff = teaching+research+public_service
+    alt_good_stuff = alt_teaching+alt_research+public_service
 
 ratio = good_stuff*(1.0)/total
-print "Direct Teaching/Research Fraction", ratio
-print "Total overhead to .545: ", total-(good_stuff) - ((good_stuff)*.545/.455)
+alt_ratio = alt_good_stuff*(1.0)/total
+print "Direct Teaching/Research Fraction", good_stuff,ratio
+print "Alt Direct Teaching/Research Fraction", alt_good_stuff,alt_ratio
+
+print "Total overhead to .566: ", total-(good_stuff) - ((good_stuff)*.566/.434)
+print "Total overhead to .59: ", total-(alt_good_stuff) - ((alt_good_stuff)*.59/.41)

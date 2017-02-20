@@ -1,0 +1,331 @@
+\documentclass[11pt]{article}
+
+\title{{\bf WORKING DRAFT:}\\  Overhead at UC Berkeley.}
+\author{}
+
+\newcommand{\pt}{{\cal{P}_{\cal{T}}}}
+\newcommand{\ptnull}{{\cal{P}_{\cal{T_{\perp}}}}}
+\newcommand{\sampleq}{{\tilde{\cal R^q}}_{\Omega}}
+\newcommand{\sampleqk}{\tilde{{\cal R^q}}_{\Omega_k}}
+\newcommand{\samplesk}{{\cal R}_{\Omega_l}}
+\newcommand{\samples}{{\cal R}_{\Omega}}
+
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1.2in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.2in}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+
+We conduct some analyses that, put simply, suggests that, scaling for size, whereas UC
+Berkeley should be spending roughly twice as much as UC Santa Barbara
+on non-teaching/non-research salaries, instead it spends up to two and
+a half times to three times as much.  A move to UCSB's level of
+``overheads'' would save hundreds of millions of dollars in
+compensation alone.  The bulk of these savings appear in Management,
+Administration, and Finance areas and some savings also appear in
+Computing and Student Services.
+
+In particular, we compute an "effective overhead" which is the ratio
+of non-instructional/non-research salary to the salary of direct
+instructional and research personnel. This measure is a convenient
+rough measure of efficiency of the institutions in that equal numbers
+roughly imply equal efficiency. 
+
+The calculations indicate that the overhead for UC Berkeley is
+roughly 215\%, while for UC Santa Barbara it is roughly 159\%. While
+neither figure is small, it does suggest that bringing UC Berkeley's
+numbers more in line with UC Santa Barbara's would generate
+significant savings, quite possibly, completely dealing with the
+budget deficit of \$150 million.
+
+We welcome feedback about any potential gaps in this analysis.
+
+\end{abstract}
+
+\section{Introduction}
+
+We apply a simple measure of institutional efficiency of our universities,
+which which we call the effective overhead rate: it is the ratio of salary
+spent on non-direct teaching and research efforts to the salary spent
+on those directly teaching and doing research. Computing this simple rate can 
+be very revealing, since we would expect that equally
+efficient universities should have comparable effective overhead rate.
+We note that the effective overhead rate is somewhat analogous to 
+the familiar research overhead rate.
+
+
+We compare UC Berkeley's effective overhead rate to that of UC Santa
+Barbara, the next largest member of the UC System that does not have
+an associated medical center.  Our analysis suggests that a move to
+UCSB's level of effective overhead would save hundreds of millions of
+dollars in compensation alone.  The bulk of these potential savings
+appear in Management, Administration and Finance areas and some
+savings also appear in Computing and Student Services.
+
+Specifically, the effective overhead rate for UC Berkeley is roughly
+215\%, while for UC Santa Barbara it is roughly 159\%.  In particular,
+an area where UCB's overhead percentage significantly exceeds UCSB's
+is management expenditures --- \$136 million (59\% overhead rate)
+versus \$29 million (26\% overhead rate).  We make no claim, nor do we
+believe that UC Santa Barbara is especially efficient with respect to
+overhead rate --- it just appears to be more efficient than UC
+Berkeley.
+
+%% As noted above, our overhead calculation is motivated by the standard
+%% one of federal research overhead rates.  In this context, UCB faculty
+%% does very well bringing in roughly \$748 million in research funds in
+%% 2015, and the overhead on this of \$175 million.  Indeed they bring
+%% millions more on graduate student researcher tuition goes directly to
+%% the university for roughly 2000 GSR positions.  Faculty (non-summer,
+%% non-lecturer) salary in our data is around \$210 million.  We do
+%% categorize that as directly serving the mission.
+
+
+We note that while we focus exclusively on employee compensation in our analysis, 
+there is perhaps something to learn from best practices
+at other UC's in categories other than employee compensation. For example, it appears UCSB 
+escapes significant expenses (on the order of \$77 million) in student
+healthcare which Berkeley does not (and to be fair, neither does
+UCLA); See section~\ref{sec:healthcare}. 
+
+
+This is a working document, and we welcome feedback about any gaps in our
+analysis.
+
+
+\section{Overhead Calculations}
+
+We proceed in the next sections with calculations that use
+two data sources with different views of salary expenditures.
+The two yield similar results.  
+
+\subsection{IPEDS 2014.}
+
+The Integrated Postsecondary Education Data System (IPEDS) is
+maintained by the National Center for Education System and collects
+information from colleges and university using standardized
+methodologies.
+
+We use these data to compare UC Berkeley and UC Santa Barbara effective overhead
+rates overall in this section, and on specific functions in the next
+subsection.
+
+For instructional salary, we have UC Berkeley at \$232 million
+compared to UC Santa Barbara's \$112 million from the IPEDS 2014
+datafiles at \cite{ipeds-is}.  For non instructional salary totals, we
+have UCB at \$653 million and UCSB at \$208 million from the IPEDS
+2014 datafile at \cite{ipeds-nis}.
+
+The non-instructional salaries include research salaries which are
+\$82 million (UCB) and \$25 million (UCSB) which should not be
+considered overhead. Moreover, UCB spends significantly more than UCSB, \$25
+million versus \$4 million, on the category of ``Librarians, Curators,
+Archivists and Academic Affairs and Other Education Services -
+outlays'' which we don't feel comfortable categorizing as overhead.
+
+Deducting those costs from the total non-instructional salary reported
+to IPEDS leaves \$546 million in overhead salaries for UC Berkeley
+versus \$179 million for UC Santa Barbara.
+
+{\bf Basic Calculation.} Putting this together, the effective overhead rate 
+for UCB is 235\%, the ratio of \$546 to \$232. The effective overhead rate 
+for UCSB is 159\%, the ratio of \$179 to \$112.  Were
+Berkeley consistent with Santa Barbara on this overhead, its
+non-instructional salaries would engender a savings of \$177 million in
+salary alone.
+
+Using an estimated associated benefit rate of 36\% as suggested by
+\cite{rev-trends} yields a saving of \$240 million dollars in salaries
+and benefits alone based on 2014 data.  
+
+\iffalse
+%%%The following three paragraphs are confusing. Move to a separate subsection???
+Of course, one could argue that research induces overhead as well.
+%% The first yields a possibly illegal overhead rate on federal funds of
+%% 174\% for Berkeley.  
+Thus, we include a calculation where the rate is
+limited to 57\%: the federally negotiated overhead on research grants.
+\fi
+
+%% {\bf Large Research Overhead Calculation.} We add research and faculty
+%% salaries which yield totals \$314 million (UCB) and \$137 million
+%% (UCSB). The associated overhead rates are then respectively 174\% and
+%% 152\%.  The associated savings for Berkeley were these equal wouldbe  94
+%% million (using the calculation $1.36\times (546 - 314\times1.52)$).
+
+{\bf Standard Research Overhead Calculation.} Federal research has a
+fixed overhead rate, which is 57\%.  Thus, we remove 57\% of \$82 million from the \$546
+million of overhead from our calculation to get an overhead of 499
+million \footnote{We calculate by reducing the \$546 million by the
+  federal overhead on \$ 82 million.} for UCB and an analogous
+calculation yields 165 million for UCSB.  We then compute an effective overhead
+rate of 215\% and 147\% respectively for UCB and UCSB.
+Reducing Berkeley's overhead to that of UCSB would save \$214 million
+on total compensation.
+
+\subsubsection{Specific areas for further examination.}
+
+These are from the IPEDS non-instructional staff data
+\cite{ipeds-nis}.  
+
+In the following, we are reporting UCB versus UCSB numbers for various
+functions.  We compute savings by reducing the per function overhead
+rate of UCB to that computed for UCSB and reporting the differences in
+salary and estimated total compensation.  We are again using overhead
+rates by dividing salaries for the specific function by the teaching
+salaries which are \$232 million for UC Berkeley and \$112 million for
+UC Santa Barbara.\footnote{We do this for consistency with the other
+  numbers, in some sense the sum of the overheads reported in all the
+  functional areas of which some are listed should equal the total
+  reported in the first calculation above.}
+
+{\bf Management.} \$136 million (or 59\% overhead rate for the
+Management function) for UCB versus \$29 million (or 26\% overhead
+rate) for UCSB. 
+of \$75 million in salary, \$102 million total compensation.
+
+{\bf Business/Finance.} \$97 million ( 42\%) versus \$31 million (28
+\%). Reducing the UCB rate to that of UCSB yields savings of \$32
+million in salary, \$43 million in total compensation.
+
+{\bf Office and Administrative Support.}  \$69 million (30\%) versus
+\$20 million (18\%). Reasoning as above yields savings of \$28
+million in salary, \$38 million in total compensation.
+
+{\bf Student Services.} \$64 million (28\%) versus \$19 million
+(17\%). Reasoning as above yields savings of \$25 million in salary,
+\$34 million in total compensation.
+
+{\bf Computer, Engineering, and Science.} \$105 million (45\%) versus
+\$37 million (33\%). Reasoning as above yields savings of \$28 million in salary, \$38
+million in total compensation.
+\footnote{We expect this particular category may have good justification via differences in research activity.}
+
+
+\subsection{Salary data}
+
+We also worked with salary data files provided by the California State
+Controller which includes per employee title along with 'Regular Pay'
+and 'Total Wages'\cite{salary}.  This data is a different way of
+looking at the picture and includes all employees.  Our analysis is
+heuristic but yields conclusions consistent with those above.
+
+Here we categorized titles as direct teaching/research and public
+service titles as follows: we select all employees who are any form of
+Professor, Lecturer, Teacher, or Teaching Assistant and total their
+salaries for the teaching category, and select all Agronomists, Museum
+titles, and Curators, Research Scientist and Graduate Student
+Researchers and total their salaries for the research
+category.\footnote{This may well include titles associated with, for
+  example, Lawrence Hall of Science, but we conservatively included
+  these anyway.} We examined the titles we pulled and scanned the full
+list of job titles to include any that might be in this category. We
+define direct salary as the total salary for employees with this
+title, and define the the remaining as overhead salary.
+
+For full details,  code at \cite{github-link} embodies our selection heuristics. 
+
+{\bf Regular Pay.}  Using the {\bf 'Regular Pay'} field for the direct
+employees described above yields as \$379 million and \$173 million
+out of total salaries \$1082 million and \$415 million for Berkeley
+and Santa Barbara respectively.  
+
+This yields effective overhead rates of 185\% and 140\% for UCB and
+UCSB respectively.  Again, if UCB overhead rate was reduced to that of
+UCSB, Berkeley would save Berkeley \$170 million in salary or \$232
+million in total compensation.
+
+{\bf Total Wages.} Using {\bf 'Total Wages'} rather than base pay
+(e.g., including summer salary), we get \$440 million and \$194 million
+out of \$1185 million and \$447 million.  
+
+This yields effective overhead rates of 169\% and 127\%.  Equalizing
+would save Berkeley \$185 million in salary or \$252 million in total
+compensation. 
+
+{\bf Adjusting for auxiliary.} One could legitimately remove things
+like housing associated salaries from overhead since they are paid for
+from revenues generated by those activities themselves.  Thus, we use
+data from 2015 Consolidated Financial Reports for UCB and UCSB
+\cite{UCSB-consolidated,UCB-consolidated} which suggest that auxiliary
+salaries and wages are \$46 million and \$36 million respectively.
+
+With these adjustments to the total wage scenario we get effective
+overhead rates of 158\% and 112\%.  Bringing Berkeley's overheads to
+UCSB's level would save Berkeley \$180 million in salary or \$245
+million in total compensation.
+
+\section{Other Questions/Issues.}
+\label{sec:healthcare}
+
+\begin{enumerate}
+\item
+{\bf Student health expenditures} from the Berkeley Consolidated
+Report \cite{UCB-consolidated} in 2015 has a non-salary expense of
+\$72 million.  For Santa Barbara \cite{UCSB-consolidated} this is
+\$11 million. Admittedly, UCLA  \cite{UCLA-consolidated}
+also reports large non-salary expense for this category, but it
+is curious that Santa Barbara escapes it.
+
+\item
+{\bf The number of Affiliates/Non-Employees} has moved from 1921 in
+2008 to 4209 in 2016 \cite{cal-answer-census}.  Who are these people?
+Do they incur expense? Are their salary expenses included in either
+the data submitted to the Federal government via IPEDS, or to the
+State Controller?
+
+\item
+{\bf Other Provisions} increased from a \$20 million in the 2014 Consolidated
+Financial Statement \cite{UCB-consolidated-14} to \$123 million in the 2015
+Consolidated Financial Statement \cite{UCB-consolidated}.  This amount
+is assigned to Cost of Instruction (as for example is the vast
+majority of the Deans offices).  While we received some information
+that these are uncategorized expenses at the time of report preparation,
+it does seem to contribute to a roughly comparable increase in the
+total cost of instruction year over year as well between these two statements.
+
+\item
+{\bf Financial Aid}. We can also examine financial aid in terms or
+spending again by continuing to use instructional faculty as the
+denominator.  Thus, the \$135 million UCB spends results in a 58\%
+effective overhead rate where \$83 million that UCSB spends results in
+a 74\% overhead rate.  Here Berkeley spends significantly less than
+Santa Barbara in this normalized sense.
+
+
+\end{enumerate}
+
+%% \section{Some remarks.}
+
+%% For Berkeley to function, one certainly needs many people beyond
+%% teachers and researchers to properly accomplish our mission. For
+%% example, we certainly need an admissions office and a registrar. These
+%% absolutely central tasks, however, cost a modest \$4.5 million and \$3.5 million in total.
+%% Berkeley, moreover, is slightly more efficient than Santa Barbara in this
+%% categories.
+
+%% For comparison purposes, Dean's offices total expenses are around
+%% \$47.5 million and Vice Chancellors another \$34 million.  Again, Santa Barbara does
+%% better in these categories.
+
+%% Incidentally, faculty brought in roughly \$748 million in research funds in
+%% 2015, and the overhead on this of \$175 million.   Moreover, millions more on
+%% graduate student researcher tuition goes directly to the university
+%% for roughly 2000 GSR positions.  For comparison purposes faculty
+%% (non-summer, non-lecturer) wages are around \$210 million.
+
+
+
+
+\bibliographystyle{plain}
+\bibliography{reports}
+
+
+\end{document}

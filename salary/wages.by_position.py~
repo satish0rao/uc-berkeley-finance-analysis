@@ -1,0 +1,17 @@
+import pandas as pd
+a = pd.read_csv("data/2013_UniversityOfCalifornia.csv")
+b.groupby('Position')
+b = a.groupby('Position')
+b
+b.sum()
+b['Total Wages'].sum()
+b['Total Wages'].sum().to_csv("wages2013.csv")
+b['Total Wages'].count().to_csv("count2013.csv")
+b = a[a['Department / Subdivision']== 'UC - Berkeley']
+c = b.groupby('Position')
+c['Total Wages'].sum().to_csv("wages2013.csv")
+c['Total Wages'].count().to_csv("count2013.csv")
+d = pd.read_csv("wages2013.csv")
+d = pd.merge(d,pd.read_csv("count2013.csv"))
+d
+d.to_csv("wages.by_position.2013.csv")

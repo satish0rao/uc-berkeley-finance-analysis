@@ -1,0 +1,587 @@
+Generating report for  UC - Berkeley
+**************
+***UC - Berkeley 2011***
+**************
+
+Professors Position titles: all
+PROFESSOR - ACADEMIC YEAR         562
+ASSOCIATE PROFESSOR-ACAD YR       221
+PROFESSOR-ACAD YR-BUS/ECON/ENG    213
+ASSISTANT PROFESSOR-ACAD YR       128
+ASSOC PROF-AY-BUS/ECON/ENG         58
+PROFESSOR-LAW SCHOOL SCALE         51
+ASST PROF-ACAD YR-BUS/ECON/ENG     50
+HS ASST CLIN PROFESSOR-ACAD YR     38
+PROFESSOR-ACAD YR-RECALLED         34
+VST ASST PROFESSOR-ACADEMIC YR     32
+VST PROFESSOR-ACAD YR-1/9 PMT      25
+ADJUNCT PROFESSOR-ACADEMIC YR      23
+VST ASSOC PROFESSOR-AY-1/9TH       20
+ASSOC ADJUNCT PROFESSOR - AY       18
+VST ASSOC PROFESSOR-ACAD YR        18
+PROFESSOR - FISCAL YR              15
+HS ASSOC CLIN PROF-ACAD YR         15
+ACT PROFESSOR-LAW SCHOOL SCALE     14
+HS CLINICAL PROFESSOR-ACAD YR      13
+VISITING PROFESSOR-ACADEMIC YR     13
+VST ASST PROFESSOR-ACAD YR-1/9     13
+ASST ADJUNCT PROFESSOR-ACAD YR     12
+PROFESSOR RECALLED-ACAD YR-1/9     11
+ADJ PROF-ACAD YR-BUS/ECON/ENG      10
+VSTG PROF-ACAD YR-BUS/ECON/ENG      6
+VST PROFESSOR-LAW SCHOOL SCALE      6
+HS CLIN PROFESSOR-FISCAL YR         5
+ASST CLINICAL PROFESSOR-VOL         5
+HS ASSOC CLIN PROFESSOR-FY          4
+PROF-AY-BUS/ECON/ENG-RECALLED       4
+HS ASSOCIATE CLIN PROF-HCOMP        3
+PROFESSOR EMERITUS (W/O SAL)        3
+PROFESSOR OF CLINICAL_____-FY       3
+PROF-AY-1/9-BUS/ECON/ENG-RECAL      3
+UNIVERSITY PROFESSOR                3
+ASSOC PROFESSOR - FISCAL YR         3
+ACT ASSOC PROF-AY-BUS/ECON/ENG      2
+ASSOC CLINICAL PROFESSOR-VOL        2
+VSTG PROF-AY-1/9-BUS/ECON/ENGR      2
+PROF IN RES-AY-BUS/ECON/ENG         2
+ADJUNCT PROFESSOR-ACAD YR-1/9       2
+ACT ASST PROFESSOR-ACADEMIC YR      2
+ASSO ADJ PROF-AY-BUS/ECON/ENG       2
+ASST ADJUNCT PROF-ACAD YR-1/9       2
+HS ASST CLIN PROFESSOR-FY           2
+PROFESSOR IN RESIDENCE-ACAD YR      2
+ASSOC ADJUNCT PROF-ACAD YR-1/9      1
+ADJ PROF-FY-BUS/ECON/ENG            1
+ASST ADJ PROF-AY-BUS/ECON/ENG       1
+HS ASSOC CLIN PROF-GENCOMP-B        1
+ASST PROFESSOR - FISCAL YEAR        1
+CLINICAL PROFESSOR-VOLUNTEER        1
+ASSOC PROF IN RESIDENCE- AY         1
+ASSISTANT PROFESSOR-AY-1/9TH        1
+PROFESSOR-FISCAL YR-RECALLED        1
+ASSOC PROF OF CLINICAL_____-FY      1
+Name: title, dtype: int64
+Professors Count:  1685
+Professors Total Wages:  217785367.08
+
+
+lect Position titles: all
+LECTURER - ACADEMIC YEAR - 1/9    410
+LECTURER - ACADEMIC YEAR          237
+LECTURER-AY-CONTINUING APPT.      167
+LECTURER IN SUMMER SESSION        126
+SR. LECTURER-AY-CONTINUING         17
+SR LECT W/SEC EMPL-ACADEMIC YR     13
+LECTURER W/SEC EMPL-ACAD YR         8
+LECTURER-MISC/PART-TIME             5
+LECTURER-AY-1/9-CONTINUING          3
+LECTURER - FISCAL YEAR              2
+LECT-PSOE-ACAD YR-PART TIME         1
+Name: title, dtype: int64
+lect Count:  989
+lect Total Wages:  27949914.23
+
+
+Research Position titles: all
+GRAD STDNT RES-FULL FEE REM       1436
+GRAD STDNT RES- NO REMISSION       659
+GRAD STDNT RES-TUIT & FEE REM      269
+GRAD STDNT RES-PARTIAL FEE REM     258
+STAFF RESEARCH ASSOC I             142
+RESEARCH ADMINISTRATOR 3           113
+ASST RES ----- - FISCAL YEAR       110
+STAFF RESEARCH ASSOC II             93
+RES ---- - RECALLED                 68
+STAFF RESEARCH ASSOC III            60
+COMPUTER RESOURCE SPEC. II          52
+RESEARCH _____ - FISCAL YEAR        52
+ASST RES ---- -FY-BUS/ECON/ENG      50
+ASSOC RES ---- - FISCAL YEAR        48
+VST ASST RES ----- -FISCAL YR       48
+RESEARCH ADMINISTRATOR 4            44
+STAFF RES ASSOC II-NONEXEMPT        43
+RESEARCH ADMINISTRATOR 2            43
+VST RES ---- - FISCAL YEAR          24
+RESEARCH DATA ANALYST 3             24
+STAFF RESEARCH ASSOC IV             22
+RESEARCH DATA ANALYST 2             22
+RESIDENT ADVISOR 2                  18
+VST ASSOC RES ---- - FISCAL YR      13
+ASSOC RES --- -FY-BUS/ECON/ENG      13
+EMPLOYMENT REPRESENTATIVE 3         12
+INSTL RESEARCH ANALYST 4            11
+COMPUTER RESOURCE SPEC. I           10
+RESEARCH COMPLIANCE ANALYST 3       10
+PARKING REPRESENTATIVE, SR           8
+                                  ... 
+RESEARCH ADMINISTRATOR 5             5
+EMPLOYMENT REPRESENTATIVE 4          4
+INSTL RESEARCH ANALYST 5             4
+LAB RESEARCH SUPERVISOR 2            4
+SURVEY RESEARCHER 3                  3
+FIELD RESEARCH MANAGER 1             3
+INSTL RESEARCH ANALYST 3             3
+RES___-AY-1/9-BUS/ECON/ENG           3
+INSTITUTIONAL RESEARCH MGR 3         3
+COLLECTIONS REPRESENTATIVE, SR       3
+RESEARCH____ -AY-BUS/ECON/ENG        3
+PARKING REPRESENTATIVE, LEAD         3
+RES --- - ACAD YR- 1/9TH PYMT        3
+LAB RESEARCH SUPERVISOR 1            2
+RESEARCH COMPLIANCE ANALYST 4        2
+ASSOCIATE RESEARCH___-ACAD YR        2
+PROF IN RES-AY-BUS/ECON/ENG          2
+STORES WORKER                        2
+ASSISTANT RESEARCH ___-ACAD YR       2
+FIELD RESEARCHER 4                   2
+PROFESSOR IN RESIDENCE-ACAD YR       2
+RESEARCH COMPLIANCE ANALYST 5        1
+RESEARCH COMPLIANCE MANAGER 3        1
+INSTL RESEARCH ANALYST 2             1
+RESEARCH COMPLIANCE SUPR 2           1
+STORES SUPVR                         1
+ASSOC PROF IN RESIDENCE- AY          1
+SURVEY RESEARCHER 2                  1
+ASOC RES___-ACAD YR-1/9TH PYMT       1
+EMPLOYMENT REPRESENTATIVE 2          1
+Name: title, dtype: int64
+Research Count:  3864
+Research Total Wages:  102446114.43
+
+
+mgr 2011 Position titles: all
+APPLICATIONS PROGRAMMING MGR 1    10
+SYSTEMS ADMINISTRATION MGR 1       9
+ADMISSIONS/RECRUITMENT MGR 1       5
+COUNSELING PSYCHOLOGY MGR 1        4
+APPLICATIONS PROGRAMMING MGR 2     4
+ELECTRONIC COMMUNICATION MGR 1     4
+TRAINING & DEVELOPMENT MGR 1       4
+SYSTEMS ADMINISTRATION MGR 3       3
+INSTITUTIONAL RESEARCH MGR 3       3
+STUDENT LIFE & DEVT MGR 1          3
+PUBLICATIONS & PRODUCTN MGR 1      2
+BUSINESS SYS ANALYSIS MGR 1        2
+RECYCLING & REFUSE SVCS MGR 1      2
+HEALTH CARE ADMIN MGR 2            2
+MEDIA COMMUNICATIONS MGR 1         2
+ORGANIZATIONAL DEV MGR 1           2
+PROJECT/POLICY ANALYSIS MGR 1      2
+EARLY CHILDHOOD EDUCATN MGR 2      2
+STUDENT LIFE & DEVT MGR 2          2
+BUSINESS/TECH SUPPORT MGR 1        2
+INTELLECTUAL PROPERTY MGR 2        1
+CONTRACT ADMINISTRATION MGR 1      1
+ADMISSIONS/RECRUITMENT MGR 2       1
+ADMISSIONS/RECRUITMENT MGR 3       1
+STUDENT LIFE & DEVT MGR 3          1
+WRITTEN COMMUNICATIONS MGR 1       1
+HEALTH CARE ADMIN MGR 3            1
+ORGANIZATIONAL DEV MGR 2           1
+PUBLICATIONS & PRODUCTN MGR 2      1
+INTELLECTUAL PROPERTY MGR 3        1
+PARKING OPS & ENFORCEMT MGR 1      1
+SKILLED CRAFTS & TRADES MGR 1      1
+COUNSELING PSYCHOLOGY MGR 2        1
+NURSE PRACTITIONER MGR 1           1
+APPLICATIONS PROGRAMMING MGR 3     1
+BROADCAST COMMUNICATION MGR 1      1
+STUDENT LIFE & DEVT MGR 4          1
+Name: title, dtype: int64
+mgr 2011 Count:  86
+mgr 2011 Total Wages:  8993513.25
+
+**************
+***UC - Berkeley 2015***
+**************
+
+Professors Position titles: all
+Prof-Ay                           559
+Assoc Prof-Ay                     241
+Prof-Ay-B/E/E                     231
+Asst Prof-Ay                      142
+Asst Prof-Ay-B/E/E                 75
+Vis Prof                           58
+Prof-Ay-Law                        52
+Vis Asst Prof                      47
+Hs Asst Clin Prof-Ay               44
+Assoc Prof-Ay-B/E/E                44
+Adj Prof-Ay                        32
+Vis Assoc Prof                     25
+Assoc Adj Prof-Ay                  19
+Hs Assoc Clin Prof-Ay              13
+Asst Adj Prof-Ay                   12
+Act Prof-Ay-Law                    12
+Adj Prof-Ay-B/E/E                  10
+Hs Clin Prof-Ay                    10
+Prof-Fy                            10
+Hs Asst Clin Prof-Hcomp             6
+Hs Clin Prof-Fy                     4
+Assoc Adj Prof-Ay-B/E/E             3
+Hs Assoc Clin Prof-Fy               3
+Hs Clin Prof-Hcomp                  3
+Prof In Res-Ay                      3
+Asst Prof In Res-Ay                 2
+Prof Of Clin-Fy                     2
+Asst Clin Prof-Vol                  2
+Prof Emeritus(Wos)                  2
+Hs Assoc Clin Prof-Hcomp            2
+Hs Asst Clin Prof-Fy                2
+Assoc Prof In Res-Ay                1
+Vst Professor-Acad Yr-1/9 Pmt       1
+Assoc Adj Prof-Ay-1/9-B/E/E         1
+Act Asst Prof-Ay                    1
+Professor-Acad Yr-Recalled          1
+Assoc Prof Of Clin-Fy               1
+Adj Prof-Fy                         1
+Assoc Clin Prof-Vol                 1
+Professor Recalled-Acad Yr-1/9      1
+Adj Prof-Ay-1/9-B/E/E               1
+Univ Prof                           1
+Asst Prof Of Clin-Fy                1
+Assoc Prof Of Clin-Hcomp            1
+Adj Prof-Fy-B/E/E                   1
+Assoc Prof-Fy                       1
+Prof Of Clin-Hcomp                  1
+Prof-Fy-B/E/E                       1
+Visiting Professor - Fiscal Yr      1
+Prof In Res-Ay-B/E/E                1
+Name: Position, dtype: int64
+Professors Count:  1689
+Professors Total Wages:  254237570
+
+
+Lecturer Position titles: all
+Lect-Ay-1/9                     555
+Lect-Ay                         254
+Lect-Ay-Continuing              205
+Lect In Summer Session          193
+Sr Lect-Ay-Continuing            17
+Sr Lect Soe-Ay                   10
+Lect-Ay-1/9-Continuing            8
+Lect-Miscellaneous/Part Time      4
+Lect Soe-Ay                       4
+Lect-Fy                           3
+Lect Psoe-Ay-100%                 3
+Name: Position, dtype: int64
+Lecturer Count:  1256
+Lecturer Total Wages:  35225038
+
+
+Teaching Assistant Position titles: all
+Teachg Asst-Gship        2663
+Teachg Asst-Non Gship     169
+Name: Position, dtype: int64
+Teaching Assistant Count:  2832
+Teaching Assistant Total Wages:  30588485
+
+
+Teacher Position titles: all
+Teacher-Unex                    796
+Teacher-Spec Prog               209
+Child Dev Ctr Teacher 1          39
+Teacher-Spec Prog-Continuing     19
+Child Dev Ctr Teacher 1 Pd       19
+Teacher-Unex-Contract Yr         14
+Name: Position, dtype: int64
+Teacher Count:  1096
+Teacher Total Wages:  9416866
+
+
+GSR Position titles: all
+Gsr-Full Fee Rem       1228
+Gsr-No Rem              644
+Gsr-Tuit & Fee Rem      269
+Gsr-Partial Fee Rem     261
+Name: Position, dtype: int64
+GSR Count:  2402
+GSR Total Wages:  41434305
+
+
+PostDoc Position titles: all
+Postdoc-Employee    1272
+Postdoc-Fellow        19
+Name: Position, dtype: int64
+PostDoc Count:  1291
+PostDoc Total Wages:  39953030
+
+
+Research Associates Position titles: all
+Asst Res-Fy              82
+Res-Fy                   50
+Asst Res-Fy-B/E/E        41
+Assoc Res-Fy             39
+Vis Asst Res             29
+Vis Res                  21
+Vis Assoc Res            17
+Res-Fy-B/E/E             11
+Assoc Res-Fy-B/E/E        8
+Res-Ay                    6
+Res-Ay-B/E/E              5
+Res-Ay-1/9                4
+Assoc Res-Ay              2
+Asst Res-Ay-1/9-B/E/E     2
+Assoc Res-Ay-1/9          2
+Asst Res-Ay               2
+Field Researcher 4        2
+Res ---- - Recalled       1
+Asst Res-Ay-1/9           1
+Res-Ay-1/9-B/E/E          1
+Asst Res-Ay-B/E/E         1
+Name: Position, dtype: int64
+Research Associates Count:  327
+Research Associates Total Wages:  24531518
+
+
+Scientist  Position titles: all
+Asst Proj Scientist-Fy           53
+Proj Scientist-Fy                34
+Vis Asst Proj Scientist          30
+Assoc Proj Scientist-Fy          24
+Asst Proj Scientist-Fy-B/E/E     21
+Assoc Proj Scientist-Fy-B/E/E     6
+Proj Scientist-Fy-B/E/E           2
+Name: Position, dtype: int64
+Scientist  Count:  170
+Scientist  Total Wages:  8652127
+
+
+Coaches Position titles: all
+Coach Ast 3               43
+Coach Ast 2               37
+Head Coach 5              27
+Recreation Coach 3        18
+Asc Head Coach Crd 4       5
+Recreation Coach Mgr 1     1
+Name: Position, dtype: int64
+Coaches Count:  131
+Coaches Total Wages:  16862616
+
+
+Athletics Position titles: all
+Ath Trainer 3    15
+Ath Mgr 3         3
+Ath Supv 2        2
+Ath Intern        2
+Ath Mgr 1         1
+Ath Mgr 2         1
+Ath Mgr 4         1
+Ath Trainer 2     1
+Name: Position, dtype: int64
+Athletics Count:  26
+Athletics Total Wages:  2097401
+
+
+Trainers Position titles: all
+Trainer 4             27
+Trainer 3             13
+Trainer 2              5
+Training Dev Mgr 1     3
+Name: Position, dtype: int64
+Trainers Count:  48
+Trainers Total Wages:  3103887
+
+
+Deans Position titles: all
+Assoc Dean          18
+Dean                17
+Asst Dean            2
+Act/Interim Dean     2
+Dean Univ Ext        1
+Name: Position, dtype: int64
+Deans Count:  40
+Deans Total Wages:  10470689
+
+
+VC Position titles: all
+VC Dev And Univ Rel        2
+VC Stdt Affairs            1
+Exec VC And Provost        1
+VC Equity And Inclusion    1
+VC Undergrad               1
+VC CFO                     1
+VC Rsch                    1
+Name: Position, dtype: int64
+VC Count:  8
+VC Total Wages:  2457372
+
+
+Food SVC Position titles: all
+Food Svc Worker Sr     185
+Food Svc Supv 1         31
+Food Svc Supv 2         16
+Food Svc Worker Ld      10
+Food Svc Mgr 1           8
+Food Svc Worker Prn      6
+Food Svc Mgr 2           2
+Food Svc Mgr 3           1
+Name: Position, dtype: int64
+Food SVC Count:  259
+Food SVC Total Wages:  6228226
+
+
+Custodial Position titles: all
+Custodian Sr           337
+Custodian              222
+Custodial Supv 1        23
+Custodian Ld            18
+Custodian Leader Sr     11
+Custodial Supv 2         5
+Custodian Leader         2
+Custodial Mgr 1          1
+Name: Position, dtype: int64
+Custodial Count:  619
+Custodial Total Wages:  18355349
+
+
+Std Svc Position titles: all
+Stdt Activities Appt Official    415
+Stdt Svc Advisor 3               124
+Stdt Acad Advisor 3               92
+Stdt Svc Advisor 2                66
+Stdt Svc Advisor 4                38
+Stdt Life Dev Spec 3              37
+Stdt Acad Spec 2                  21
+Stdt Svc Mgr 1                    19
+Stdt Life Devt Supv 1             19
+Stdt Acad Advisor 4               18
+Stdt Acad Advisor 2               14
+Stdt Svc Supv 2                   14
+Stdt Life Dev Spec 4              13
+Stdt Acad Spec 4                  12
+Stdt Health Physcn 4              10
+Stdt Health Physcn 4 Pd            9
+Stdt Health Physcn 5               8
+Stdt Life Devt Supv 2              8
+Stdt Acad Spec 3                   8
+Stdt Life Dev Spec 2               7
+Stdt Acad Supv 2                   7
+Stdt Health Physcn 5 Pd            6
+Stdt Advisor Mgr 1                 6
+Stdt Svc Mgr 2                     5
+Stdt Disability Spec 3             5
+Stdt Disability Spec 4             4
+Stdt Acad Mgr 2                    4
+Stdt Svc Supv 1                    4
+Stdt Life Dev Mgr 1                4
+Stdt Disability Spec 2             3
+Stdt Acad Mgr 1                    3
+Stdt Disability Supv 1             3
+Stdt Svc Advisor 1                 3
+Stdt Advisor Supv 2                3
+Stdt Life Dev Mgr 4                2
+Stdt Disability Mgr 1              2
+Stdt Life Dev Spec 1               2
+Stdt Health Physcn 3 Pd            1
+VC Stdt Affairs                    1
+Stdt Advisor Mgr 2                 1
+Stdt Life Dev Mgr 2                1
+Stdt Disability Supv 2             1
+Stdt Svc Mgr 4                     1
+Stdt Disability Mgr 2              1
+Stdt Legal Svc Advisor 3           1
+Stdt Svc Mgr 3                     1
+Name: Position, dtype: int64
+Std Svc Count:  1027
+Std Svc Total Wages:  35848685
+
+
+Student  Position titles: all
+Stdt 2            4882
+Stdt 1            2119
+Stdt 3            1216
+Stdt Volunteer     319
+Stdt 4             314
+Name: Position, dtype: int64
+Student  Count:  8850
+Student  Total Wages:  25218765
+
+
+Financial/MGR Position titles: all
+Financial Svc Anl 2           134
+Financial Anl 3                72
+Financial Anl 4                69
+Financial Svc Anl 3            66
+Admin Mgr 1                    51
+Financial Anl Mgr 1            34
+Financial Aid Ofcr 3           26
+Financial Anl Mgr 2            26
+Admin Mgr 2                    23
+Stdt Svc Mgr 1                 19
+Fundraising Mgr 1              18
+Info Sys Mgr 1                 17
+Admin Mgr 3                    16
+HR Mgr 1                       15
+Financial Svc Mgr 1            14
+Financial Anl 5                14
+Applications Progm Mgr 1       14
+Financial Anl 2                13
+Financial Svc Supv 2           13
+Info Sys Mgr 2                 12
+Financial Svc Anl 4            12
+Sys Admst Mgr 1                11
+Aerospace Mgr 2                10
+Fundraising Mgr 3              10
+Info Sys Mgr 3                  9
+Financial Svc Mgr 2             8
+Financial Aid Ofcr 4            8
+Food Svc Mgr 1                  8
+Contracts And Grants Mgr 1      8
+Fac Mgr 2                       8
+                             ... 
+Stdt Disability Mgr 2           1
+Rsch Cmplnc Mgr 3               1
+Early Childhood Educ Mgr 2      1
+Police Chf Mgr 3                1
+Stdt Life Dev Mgr 2             1
+Physcn Mgr 2                    1
+Recreation Coach Mgr 1          1
+Contract Admst Mgr 1            1
+Fac Mgr 3                       1
+Acad Prg Mgr 1                  1
+Custodial Mgr 1                 1
+Clin Lab Mgr 1                  1
+Ath Mgr 4                       1
+Ath Mgr 2                       1
+Ath Mgr 1                       1
+Comm Mgr 2                      1
+K To 14 Acad Prep Mgr 3         1
+Stdt Advisor Mgr 2              1
+Curatorial Mgr 2                1
+Stdt Svc Mgr 4                  1
+Curatorial Mgr 3                1
+Institutional Rsch Mgr 3        1
+Exhibitions Mgr 1               1
+Enterprise Risk Mgr 1           1
+Comm Mgr 3                      1
+Recycling Refuse Svc Mgr 1      1
+Food Svc Mgr 3                  1
+Enterprise Risk Mgr 2           1
+Comm Mgr 4                      1
+Compensation Mgr 2              1
+Name: Position, dtype: int64
+Financial/MGR Count:  1127
+Financial/MGR Total Wages:  114961422
+
+
+Fundraisers Position titles: all
+Fundraiser 3          66
+Fundraiser 4          54
+Fundraiser 2 Nex      48
+Fundraiser 5          24
+Fundraising Mgr 1     18
+Fundraising Mgr 3     10
+Fundraising Mgr 2      7
+Fundraiser 1 Nex       5
+Fundraising Supv 1     2
+Fundraising Mgr 4      1
+Name: Position, dtype: int64
+Fundraisers Count:  235
+Fundraisers Total Wages:  17470789
+
+Teachers    :  329467959
+Researchers :  114570980
+Athletics   :  22063904
+Total Wages :  1184953439
+Direct Teaching/Research Fraction 0.374731128149
+Total overhead to .545:  209043682.956

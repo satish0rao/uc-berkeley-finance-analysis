@@ -1,0 +1,972 @@
+,Position,Wages,Count
+214,Clin Instr-Vol,200,1
+967,Writer,883,1
+680,Physcn 3,1428,1
+92,Assoc Clin Prof-Vol,1799,1
+899,Survey Worker Sr,2590,1
+578,Language Ast,3486,2
+70,Agricultural Tchn Sr,4780,1
+50,Admin Stipend,4830,3
+122,Asst Clin Prof-Vol,5469,2
+151,Ath Trainer 2,5638,1
+623,Military/Air Sci&Tactics Asst,6234,5
+570,Lab Mechn Helper,6280,1
+634,Musician 1,6669,1
+360,Enterprise Risk Mgt Anl 1,6915,1
+413,Faculty Recruitment Allow,8056,1
+556,K To 14 Acad Prep Spec 1,8932,1
+40,Admin Ast 2,9064,1
+963,Visiting Professor - Fiscal Yr,10000,1
+133,Asst Res-Ay-1/9,10000,1
+588,Lect-Miscellaneous/Part Time,11104,4
+490,HR Mgr 3,11111,1
+314,Department Chair,11373,1
+721,Professor Recalled-Acad Yr-1/9,12000,1
+722,Professor-Acad Yr-Recalled,12500,1
+856,Stdt Health Physcn 3 Pd,12841,1
+37,Adj Prof-Fy,13333,1
+435,Financial Svc Anl 1,13695,1
+711,Prof Emeritus(Wos),14590,2
+352,Employment Mgr 1,14631,1
+170,Bibliographer 2,14662,3
+530,Info Sys Anl 1,15771,2
+778,Remd Tut II Non-Gship/Non Rep,16118,3
+885,Storekeeper Ast,16780,4
+141,Ath Intern,16869,2
+263,Cook Ast,16873,4
+265,Coop Ext Advisor,17133,1
+673,Photographic Tchn Sr,17907,2
+330,Editor Ast,19158,2
+88,Assoc Adj Prof-Ay-1/9-B/E/E,19408,1
+35,Adj Prof-Ay-1/9-B/E/E,19668,1
+112,Assoc Res-Ay-1/9,21482,2
+343,Electr Tchn Prn,22282,2
+324,Drafting Tchn Prn,22556,1
+668,Pharmacist Pd,22617,3
+278,Counseling Psychologist 2,24283,1
+225,Clinic Ops Supv 1,26169,1
+84,Artist,26668,2
+69,Agricultural Tchn,27711,3
+886,Storekeeper Ld,28196,1
+217,Clin Lab Sci Pd,28448,3
+910,Tchl Project Mgr 3,30219,1
+766,Recreation Prg Instr,31757,13
+865,Stdt Life Dev Spec 1,31868,2
+754,Radlg Tchno Pd,34327,5
+808,Scene Tchn Ast Pd,35248,28
+964,Visual Comm Mgr 1,36000,1
+966,Vst Professor-Acad Yr-1/9 Pmt,37500,1
+732,Psychologist 1,37781,4
+749,QA Release Mgt Anl 1,38250,1
+178,Broadcast Comm Spec 1,38871,1
+367,Equip Operating Engr Worker Ld,39015,1
+326,Early Childhood Educ Mgr 2,39359,1
+782,Res-Ay-1/9-B/E/E,39453,1
+448,Fld Wk Consult-Fy,40240,1
+417,Field Rsch Supv 1,40305,1
+269,Coord Public Prog III,41185,2
+672,Photographer Sr,41850,1
+635,Musician 2,41879,13
+625,Museum Educ Supv 1,42573,1
+678,Phys Ther 4,43785,1
+820,Sound Tchn,43814,1
+266,Coord Fld Wk-Ay,44816,1
+740,Publ Educ Supv 2,45000,1
+245,Computer Resc Spec 1,45040,6
+473,Glazier,45272,1
+499,Health Educator 3,46578,2
+724,Proj Scientist-Fy-B/E/E,46976,2
+504,Hosp Ast,47492,1
+900,Sys Adm 1,47804,1
+401,Fac Mgt Spec 1,48287,1
+483,HR Ast 2,48786,1
+686,Planning Spec 2,48979,2
+163,Av IT Spec 3,49433,7
+529,Illustrator Sr,50104,1
+926,Television Tchn,50878,1
+938,Tree Trimmer Ld,51017,1
+39,Admin Ast 1,52298,2
+898,Survey Worker,52386,17
+180,Bus Sys Anl 1 Nex,52611,1
+212,Clerk,53707,7
+945,User Experience Designer 2,54980,1
+798,Rsch And Dev Engr Supv 2,55575,1
+31,Act Instr-Grad Stdnt-Gship,56668,3
+179,Broadcast Comm Supv 1,56809,1
+762,Recording Tchn,57295,1
+753,Radlg Tchno,57351,1
+616,Med Rcds Tchn,57884,1
+387,Exhibitions Supv 1,58555,1
+636,Musician 3,59293,9
+747,Publications Prod Supv 1,60238,1
+6,Acad HR Anl 1,60358,2
+497,Health Educator 1,62319,2
+224,Clinic Ops Adm 4,62479,1
+365,Enterprise Risk Supv 2,62538,1
+779,Res ---- - Recalled,63428,1
+929,Theater Prod Spec 2,63830,1
+937,Tree Trimmer,64129,1
+567,Lab Instruction Supv 1,64170,1
+731,Projectionist Sr,64277,3
+551,Irrigation Mech Ld,64700,1
+315,Department Vice Chair,65000,1
+475,Government Rel Spec 3,65438,1
+506,Hosp Ast Sr,66050,3
+161,Av IT Engr Mgr 1,66056,1
+168,Benefits Anl 3,66399,2
+671,Photographer Prn,66655,1
+642,Nursery Tchn,67063,2
+287,Curatorial Supv 2,67528,1
+928,Television Tchn Sr,67595,1
+781,Res-Ay-1/9,67992,4
+775,Recycling Refuse Svc Supv 1,68181,1
+472,General Svc Other Supv 1,68437,1
+204,Cement Mason,69169,1
+667,Pest Cntrl Opr,69601,1
+925,Television Engr,69727,1
+61,Advocate 4,70485,3
+229,Comm And Network Tchl Anl 2,70659,1
+591,Librarian-Temp Status,71299,1
+888,Storekeeper Sr Ld,71748,1
+786,Roofer Ld,72320,1
+607,Mail Svc Mgr 1,72367,2
+243,Compensation Anl 5,72408,1
+587,Lect-Fy,72503,3
+249,Continuing Appt-Temp Aug-1/9,72703,2
+350,Employee Rel Repr 3,73547,1
+706,Procurement Supv 1,74734,1
+299,Customer Svc Supv 2,74798,1
+742,Publ Safety Dispatcher Ld,75404,1
+565,Lab Glassblower Prn,75603,1
+366,Equip Operating Engr,76202,1
+764,Recreation Coach Mgr 1,76965,1
+166,Av IT Supv 2,77261,1
+855,Stdt Disability Supv 2,77386,1
+474,Glazier Worker Ld,80345,1
+774,Recycling Refuse Svc Mgr 1,80578,1
+108,Assoc Prof-Fy,81000,1
+165,Av IT Supv 1,81217,1
+927,Television Tchn Prn,81275,1
+150,Ath Supv 2,82050,2
+624,Museum Educ Mgr 1,83028,1
+730,Project Policy Anl Mgr 1,83288,1
+334,Ehs Spec 1 Nex,84390,2
+68,Aerospace Tchn 3,85650,1
+646,Ombudsperson 4,86432,1
+697,Police Svc Supv 1,86924,1
+56,Admissions Recrmt Spec 1,87333,4
+650,Optometrist 4,88599,1
+665,Performing Arts Mgr 1,88780,1
+127,Asst Prof Of Clin-Fy,89411,1
+415,Field Researcher 4,89453,2
+385,Exhibitions Mgr 1,89589,1
+325,EEO Repr 4,90780,1
+890,Stores Worker,91689,3
+660,Parking Repr Ld,91755,2
+658,Parking Ops Enforcement Mgr 1,92510,1
+316,Dev Tchn 3,92622,4
+755,Radlg Tchno Sr,92641,2
+932,Theatrical Prod Supv 1,93350,1
+301,Data Sys Anl 1,93731,2
+41,Admin Ast 3,93883,6
+816,Sheetmetal Worker Ld,94004,1
+743,Publications Prod Mgr 1,94044,1
+604,Machinist Worker Ld,94083,1
+159,Auto Tchn Ast,94409,3
+177,Broadcast Comm Mgr 1,95609,1
+733,Psychologist 2,95646,1
+525,IT Security Anl 3,96542,2
+498,Health Educator 2,96599,2
+220,Clin Nurse 3,96861,1
+725,Project Policy Anl 1,97100,9
+79,Applications Progr 1,98047,2
+400,Fac Mgr 3,98742,1
+425,Financial Anl 1,100808,5
+505,Hosp Ast 1 Pd,100825,6
+216,Clin Lab Sci,101622,1
+847,Stdt Advisor Mgr 2,101645,1
+688,Planning Spec 4,101645,1
+750,QA Release Mgt Anl 2,101731,3
+289,Custodial Mgr 1,102961,1
+203,Cart Captionist Pd,103392,2
+545,Insulation Worker Ld,103955,1
+391,External Rel Spec 1,103962,4
+198,Career Svc Spec 5,104565,1
+275,Counsel 3,104788,1
+758,Reader-Non Stdnt,104917,32
+564,Lab Ast 4,105103,2
+253,Contract Adm 2,105164,3
+215,Clin Lab Mgr 1,105663,1
+414,Farm Maint Worker Sr,105759,2
+618,Media Comm Spec 1,105815,4
+915,Tchl Project Supv 2,106461,1
+891,Structural Engr 3,106863,1
+861,Stdt Legal Svc Advisor 3,107313,1
+270,Coord Public Prog IV,107366,2
+134,Asst Res-Ay-1/9-B/E/E,107672,2
+892,Structural Engr 4,108000,1
+294,Custodian Leader,108506,2
+104,Assoc Prof Of Clin-Fy,110320,1
+370,Events Spec 1,111546,9
+627,Museum Educator 2,111571,5
+38,Adj Prof-Fy-B/E/E,111637,1
+806,Rsdt Advisor 2,111800,13
+103,Assoc Prof In Res-Ay,112543,1
+218,Clin Lab Sci Spec,112592,1
+267,Coord Fld Wk-Ay-Continuing,113315,1
+124,Asst Law Librarian,113931,1
+853,Stdt Disability Spec 4,114143,4
+970,Written Comm Mgr 1,114744,1
+615,Massage Therapist 2,115228,12
+522,IT Architect 3,115651,1
+458,Fundraiser 1 Nex,115662,5
+700,Procurement Anl 1,117232,2
+628,Museum Educator 3,117664,2
+809,Scene Tchn Pd,117795,16
+382,Exec Ast 5,117949,1
+850,Stdt Disability Mgr 2,118107,1
+704,Procurement Mgr 1,118118,1
+674,Phys Plt Laborer Gardener A,118233,2
+736,Publ Educ Spec 1,118407,5
+195,Career Svc Spec 2,118858,3
+871,Stdt Svc Advisor 1,119142,3
+593,Library Ast 2,119517,10
+933,Trainer 2,119542,5
+358,Enterprise Risk Mgr 1,119872,1
+602,Lifeguard,120138,22
+361,Enterprise Risk Mgt Anl 2,120276,2
+222,Clin Nurse Supv 2,120606,1
+852,Stdt Disability Spec 3,120919,5
+679,Phys Ther Mgr 1,121943,1
+467,Fundraising Supv 1,121974,2
+268,Coord Fld Wk-Fy-Continuing,122201,1
+185,Bus Sys Anl Mgr 1,122748,1
+914,Tchl Project Mgt Profl 5,123232,1
+257,Contract Admst Mgr 1,124437,1
+931,Theater Prod Spec 4,124502,3
+514,Hs Asst Clin Prof-Fy,124960,2
+799,Rsch Cmplnc Anl 2,126372,2
+46,Admin Nurse Profl 4,128215,1
+368,Events Crd 2,128357,53
+573,Lab Rsch Supv 1,129204,2
+951,VC Rsch,129229,1
+143,Ath Mgr 2,129977,1
+142,Ath Mgr 1,130121,1
+851,Stdt Disability Spec 2,131077,3
+308,Database Adm 2,131847,2
+657,Paralegal 2,132440,2
+575,Labor Rel Mgr 2,132656,1
+566,Lab Helper,133152,12
+449,Fld Wk Supv-Fy,133186,4
+205,Cement Mason Ld,133269,2
+715,Prof Of Clin-Hcomp,133358,1
+713,Prof In Res-Ay-B/E/E,134071,1
+135,Asst Res-Ay-B/E/E,134471,1
+920,Teacher-Spec Prog-Continuing,134611,19
+383,Exec Chef 4,134847,3
+389,External Rel Mgr 2,135122,2
+30,Act Asst Prof-Ay,135833,1
+813,Security Guard,135993,6
+881,Stdt Volunteer,137910,319
+644,Ombuds Mgr 1,138411,1
+546,Intellectual Property Mgr 1,138420,1
+863,Stdt Life Dev Mgr 2,138550,1
+237,Comm Mgr 3,139849,1
+748,QA Chef 3,140578,3
+20,Academic Coord I-Ay,142039,2
+244,Compensation Mgr 2,142341,1
+298,Customer Svc Supv 1,142978,2
+641,Nurse Practitioner Pd,143242,7
+285,Curatorial Mgr 2,143314,1
+341,Ehs Tchn Sr,143733,5
+221,Clin Nurse Mgr 2,145200,1
+102,Assoc Librarian-Temp Status,145261,5
+202,Cart Captionist,145768,3
+896,Supv Pe-Ay,146393,1
+555,K To 14 Acad Prep Mgr 3,146421,1
+153,Audit Mgr 2,147148,1
+503,High Volt Electrn Ld,147174,1
+250,Continuing Educator I,147248,3
+592,Library Ast 1,147784,11
+374,Events Supv 1,148894,3
+769,Recreation Prg Instr 3,149078,19
+643,Nursery Tchn Sr,149470,4
+468,Gen Accountant 2,149533,3
+548,Intellectual Property Ofcr 2,149589,2
+877,Stdt Svc Mgr 3,149638,1
+452,Food Svc Mgr 3,149793,1
+194,Career Svc Mgr 3,151097,1
+539,Inspection Mgr 3,151375,1
+236,Comm Mgr 2,152525,1
+585,Lect-Ay-1/9-Continuing,152587,8
+105,Assoc Prof Of Clin-Hcomp,153347,1
+12,Acad HR Mgr 3,154073,1
+645,Ombudsperson 3,154398,2
+597,Library Bookbinder Sr,154510,4
+478,Groundskeeper,155140,7
+420,Financial Aid Mgr 3,155361,1
+501,Health Educator 5,156975,4
+614,Marketing Supv 2,157017,2
+735,Publ Educ Mgr 1,157366,2
+348,Elevator Mech Ld,157456,1
+140,Asst Univ Librarian,158956,1
+606,Mail Processor Sr,160837,3
+349,Employee Rel Mgr 2,160980,1
+386,Exhibitions Spec 4,161017,3
+669,Pharmacy Mgr 1,161224,1
+596,Library Bookbinder,161250,6
+85,Artist Sr,161524,3
+777,Registrar Collection Supv 2,161529,2
+946,User Experience Designer 3,162554,2
+329,Editor,162787,7
+705,Procurement Mgr 3,163600,1
+670,Pharmacy Tchn 1,164167,3
+683,Physcn Mgr 2,164772,1
+854,Stdt Disability Supv 1,167064,3
+944,Univ Prof,168213,1
+613,Marketing Supv 1,169511,4
+282,Counseling Psychology Mgr 2,169913,1
+355,Employment Repr 4,171194,2
+211,Child Dev Ctr Teacher 1 Pd,171918,19
+157,Auto Equip Opr Prn,172691,3
+699,Postdoc-Fellow,172945,19
+456,Food Svc Worker Prn,173779,6
+528,IT Security Mgr 2,173931,1
+333,Ehs Mgr 3,174829,1
+823,Spectroscopist,175242,2
+247,Const Insp 5,176196,2
+543,Institutional Rsch Mgr 3,176458,1
+767,Recreation Prg Instr 1,176460,63
+359,Enterprise Risk Mgr 2,177529,1
+55,Admissions Recrmt Mgr 3,177886,1
+139,Asst Specialist Coop Ext,178717,2
+342,Electr Tchn,179288,3
+544,Insulation Worker,180995,2
+771,Recreation Prg Leader 3,181755,17
+770,Recreation Prg Leader 2,182473,13
+111,Assoc Res-Ay,182684,2
+169,Benefits Anl 4,185013,2
+849,Stdt Disability Mgr 1,185136,2
+803,Rsch Cmplnc Mgr 3,186038,1
+510,Hs Assoc Clin Prof-Ay,187301,13
+489,HR Mgr 2,187446,1
+126,Asst Prof In Res-Ay,187728,2
+78,Applications Progm Mgr 3,187768,1
+916,Tchn 3,189497,4
+149,Ath Profl 4,190861,2
+693,Police Chf Mgr 3,191655,1
+773,Recreation Supv 2,192565,3
+277,Counseling Psych Intern Ex,192670,8
+922,Teacher-Unex-Contract Yr,193153,14
+154,Audit Mgr 3,193603,1
+659,Parking Ops Enforcement Supv 1,193805,3
+560,K To 14 Acad Prep Spec 5,194004,2
+496,Health Educ Mgr 1,194130,2
+550,Irrigation Mech,194951,3
+518,Hs Clin Instr-Hcomp,195229,3
+444,Fire And Security Sys Tchn,195530,4
+858,Stdt Health Physcn 4 Pd,195623,9
+495,Health Care Adm Mgr 3,196006,1
+396,External Rel Supv 1,196826,3
+547,Intellectual Property Mgr 3,197716,1
+162,Av IT Mgr 1,197749,2
+228,Collections Repr Sr,198620,3
+408,Fac Project Mgt Spec 2,198623,4
+819,Social Work Mgr 1,198921,2
+406,Fac Project Mgr 3,200144,2
+491,HR Mgr 4,200394,1
+734,Psychology Intern Ex,201970,10
+908,Sys Admst Supv 2,203025,2
+897,Survey Researcher 2,203429,7
+512,Hs Assoc Clin Prof-Hcomp,205092,2
+889,Storekeeping Supv 1,205556,3
+116,Assoc Specialist Coop Ext,207142,2
+930,Theater Prod Spec 3,207277,2
+193,Career Svc Mgr 2,207351,2
+25,Accounting Mgr 1,207420,2
+751,QA Release Mgt Anl 3,208315,5
+557,K To 14 Acad Prep Spec 2,208371,8
+866,Stdt Life Dev Spec 2,208956,7
+661,Parking Repr Sr,209142,5
+29,Accounting Supv 2,209456,2
+322,Digital Comm Spec 5,209545,2
+720,Prof-Fy-B/E/E,209892,1
+511,Hs Assoc Clin Prof-Fy,210930,3
+356,Employment Repr 5,211092,2
+579,Law Librarian,211208,1
+234,Comm And Network Tchl Supv 2,211546,2
+656,Painter Worker Ld,212416,4
+328,Early Childhood Site Crd 4,213078,5
+648,Optician,213136,4
+313,Dean Univ Ext,213534,1
+484,HR Ast 3,213687,6
+630,Museum Preparator Prn,216195,18
+802,Rsch Cmplnc Anl 5,216516,2
+17,Academic Administrator Vi,216871,1
+950,VC Equity And Inclusion,217576,1
+421,Financial Aid Ofcr 2,218795,5
+286,Curatorial Mgr 3,219339,1
+860,Stdt Health Physcn 5 Pd,220909,6
+687,Planning Spec 3,221659,3
+647,Ombudsperson 5,223012,2
+13,Acad Prg Mgr 1,224395,1
+878,Stdt Svc Mgr 4,224465,1
+28,Accounting Mgr 4,224643,1
+432,Financial Anl Mgr 3,224921,1
+707,Procurement Supv 2,228849,3
+612,Marketing Spec 5,230655,2
+331,Ehs Mgr 1,232267,2
+132,Asst Res-Ay,233274,2
+765,Recreation Mgr 1,236200,4
+369,Events Mgr 1,237395,3
+681,Physcn 5,237627,23
+527,IT Security Anl 5,237627,2
+125,Asst Librarian-Temp Status,237704,6
+617,Media Comm Mgr 1,238390,2
+442,Financial Svc Supv 1,239308,3
+517,Hs Clin Instr-Fy,239900,4
+451,Food Svc Mgr 2,240192,2
+848,Stdt Advisor Supv 2,242819,3
+26,Accounting Mgr 2,243023,2
+118,Assoc Vice Provost,244600,1
+812,Scene Tchn Sr Pd,245610,14
+476,Government Rel Spec 4,245625,2
+709,Producer Dir,246076,3
+952,VC Stdt Affairs,246546,1
+590,Librarian-Potntl Career Status,247744,3
+831,Staff Pharmacist 1 Ex,249192,2
+466,Fundraising Mgr 4,249260,1
+477,Government Rel Spec 5,249311,2
+416,Field Rsch Mgr 1,249507,3
+192,Career Svc Mgr 1,251825,2
+884,Storekeeper,253323,10
+5,Acad Achievement Supv 2,255081,3
+284,Curatorial Mgr 1,256718,3
+629,Museum Preparator,257832,15
+940,Tut-Gship,257858,46
+605,Mail Processor,258003,8
+666,Performing Arts Mgr 3,258060,1
+714,Prof Of Clin-Fy,258651,2
+208,Chf Campus Counsel,258754,1
+895,Supv 2,258988,7
+238,Comm Mgr 4,260211,1
+879,Stdt Svc Supv 1,260727,4
+954,Veterinarian 3,262588,2
+146,Ath Profl 1,263009,25
+632,Museum Sci Ast,263058,9
+839,Stdt Acad Mgr 1,263419,3
+554,K To 14 Acad Prep Mgr 2,263782,2
+99,Assoc Law Librarian,266877,2
+186,Bus Sys Anl Supv 2,267049,4
+953,VC Undergrad,267208,1
+362,Enterprise Risk Mgt Anl 3,268385,4
+155,Audit Profl 3,268845,4
+708,Prod Cntrl Mgr 1,269309,2
+581,Lect Psoe-Ay-100%,270088,3
+638,Nurse Pd,270153,18
+242,Compensation Anl 4,272926,5
+147,Ath Profl 2,273325,23
+353,Employment Repr 2,274005,7
+763,Recreation Coach 3,275288,18
+626,Museum Educator 1,276354,21
+332,Ehs Mgr 2,277076,2
+894,Sty Engr Worker Ld,278569,3
+943,Univ Librarian,279632,2
+540,Institutional Rsch Anl 3,282636,4
+397,External Rel Supv 2,283777,3
+433,Financial Anl Mgr 4,284475,1
+357,Engr Tchn Supv 2,285865,3
+311,Database Adm 5,288675,2
+942,Tut-Non Stdnt,291262,66
+233,Comm And Network Tchl Mgr 1,292613,2
+95,Assoc Director,296505,1
+576,Labor Rel Repr 4,297314,3
+60,Admissions Recrmt Supv 2,298291,3
+156,Audit Profl 4,299635,3
+445,Fld Prog Supv,301813,3
+307,Data Sys Mgr 2,302776,2
+65,Aerospace Engr 5,308518,2
+904,Sys Adm 5,309128,2
+375,Events Supv 2,310104,4
+569,Lab Mechn,312164,8
+446,Fld Wk Consult-Ay,312825,4
+842,Stdt Acad Spec 3,312992,8
+305,Data Sys Anl 5,313027,2
+815,Security Supv 1,313644,7
+494,Health Care Adm Mgr 2,317477,2
+691,Plumber Pipefitter Worker Ld,318235,4
+817,Skld Crafts And Trades Mgr 1,318363,3
+121,Asst Agron Aes-Ay-B/E/E,319352,2
+684,Physcn Mgr 3,319445,1
+603,Machinist,322843,4
+640,Nurse Practitioner 3,327187,3
+340,Ehs Tchn Prn,327716,7
+810,Scene Tchn Prn,328191,7
+906,Sys Admst Mgr 2,330240,2
+936,Training Dev Mgr 1,331109,3
+317,Dev Tchn 4,332872,6
+123,Asst Dean,335098,2
+89,Assoc Adj Prof-Ay-B/E/E,336854,3
+441,Financial Svc Mgr 3,337729,2
+801,Rsch Cmplnc Anl 4,337851,4
+280,Counseling Psychologist 4,340298,3
+363,Enterprise Risk Mgt Anl 4,341894,6
+241,Comm Supv 2,342960,5
+455,Food Svc Worker Ld,343811,10
+957,Vis Assoc Res,344456,17
+199,Career Svc Supv 2,349493,4
+291,Custodial Supv 2,350910,5
+27,Accounting Mgr 3,351252,2
+710,Producer Dir Sr,351584,18
+283,Curator 4,352003,5
+447,Fld Wk Consult-Ay-Continuing,353818,4
+574,Lab Rsch Supv 2,354418,6
+256,Contract Adm 5,355622,3
+637,Musician 4,356200,5
+398,Fac Mgr 1,357320,5
+685,Planning Mgr 3,357470,2
+703,Procurement Anl 5,358906,3
+189,Bus Tchl Supp Supv 1,359279,5
+260,Contracts And Grants Mgr 3,359945,2
+418,Financial Aid Mgr 1,362140,3
+649,Optometrist 3,362350,9
+145,Ath Mgr 4,362456,1
+405,Fac Project Mgr 2,362859,3
+93,Assoc Curator,364080,3
+752,QA Release Mgt Anl 4,365793,4
+191,Camp Cnslr,367756,94
+110,Assoc Proj Scientist-Fy-B/E/E,369426,6
+160,Av IT Engr 4,369665,5
+259,Contracts And Grants Mgr 2,370398,3
+507,Hosp Blank Ast 1,372209,11
+167,Benefits Anl 2,373387,8
+776,Registrar Collection Mgr 1,373641,4
+339,Ehs Supv 2,376681,4
+327,Early Childhood Educ Supv 2,382867,6
+883,Steamfitter Worker Ld,383418,4
+364,Enterprise Risk Mgt Anl 5,384736,3
+0,Acad Achievement Cnslr 2,389420,14
+948,VC CFO,389469,1
+611,Marketing Spec 4,389718,5
+521,Hs Clin Prof-Hcomp,391117,3
+509,Hosp Blank Ast 3,392634,7
+622,Media Comm Spec 5,395578,4
+347,Elevator Mech,397088,6
+795,Rsch And Dev Engr 5,398806,3
+619,Media Comm Spec 2,403011,12
+542,Institutional Rsch Anl 5,403564,3
+811,Scene Tchn Sr,404514,10
+862,Stdt Life Dev Mgr 1,407766,4
+840,Stdt Acad Mgr 2,409026,4
+917,Tchn Prn,409479,8
+712,Prof In Res-Ay,410375,3
+538,Info Sys Supv 2,413696,4
+864,Stdt Life Dev Mgr 4,417097,2
+677,Phys Ther 3,418879,7
+701,Procurement Anl 2,421590,7
+335,Ehs Spec 2 Nex,423300,8
+252,Continuing Educator III,426807,4
+664,Payroll Supv 2,429124,5
+3,Acad Achievement Cnslr 5,432588,5
+117,Assoc Univ Librarian,434463,3
+424,Financial Aid Supv 2,434855,5
+264,Cook Sr,437524,12
+692,Police Captain Mgr 2,442782,3
+844,Stdt Acad Supv 2,442896,7
+300,Data Proc Prod Crd Prn,443097,7
+419,Financial Aid Mgr 2,445413,4
+800,Rsch Cmplnc Anl 3,445907,6
+516,Hs Clin Instr-Ay,450582,22
+471,Gen Accountant 5,450601,4
+537,Info Sys Mgr 4,455354,2
+379,Exec Advisor Mgr 3,455426,2
+582,Lect Soe-Ay,456825,4
+96,Assoc Fld Prog Supv,457172,32
+388,External Rel Mgr 1,457994,4
+232,Comm And Network Tchl Anl 5,458062,3
+22,Academic Coord II-Ay,462367,4
+288,Curriculum Planner 3,462576,8
+404,Fac Mgt Spec 4,464809,5
+319,Digital Comm Mgr 1,466863,4
+1,Acad Achievement Cnslr 3,467238,8
+601,Library Supv 2,468928,8
+508,Hosp Blank Ast 2,469677,12
+33,Act/Interim Dean,471829,2
+174,Bldg Maint Worker,472395,15
+598,Library Mgr 1,473069,7
+531,Info Sys Anl 2,474186,9
+164,Av IT Spec 4,477557,7
+520,Hs Clin Prof-Fy,479637,4
+384,Exec VC And Provost,479948,1
+500,Health Educator 4,482464,9
+344,Electr Tchn Sr,483755,7
+577,Landscape Grounds Supv 1,484334,7
+281,Counseling Psychology Mgr 1,489105,4
+101,Assoc Librarian-Potntl Career,492417,11
+346,Electrn Worker Ld,492862,6
+4,Acad Achievement Mgr 1,493082,4
+608,Marketing Mgr 1,493423,4
+450,Food Svc Mgr 1,494872,8
+846,Stdt Advisor Mgr 1,498038,6
+201,Carpenter Locksmith Worker Ld,499852,6
+744,Publications Prod Spec 2,503703,15
+100,Assoc Librarian -Career Status,503820,8
+10,Acad HR Anl 5,503920,4
+254,Contract Adm 3,504818,11
+828,Sra 2 Nex,506014,21
+841,Stdt Acad Spec 2,508871,21
+390,External Rel Mgr 3,513661,3
+83,Applications Progr 5,513809,5
+276,Counsel 4,513940,3
+568,Lab Instruction Supv 2,515588,6
+144,Ath Mgr 3,515780,3
+434,Financial Anl Supv 2,515966,5
+51,Admin Supv 1,516047,9
+772,Recreation Supv 1,520791,14
+955,Vice Provost,521150,2
+98,Assoc In__-Ay- 1/9 -Non-Gship,523732,35
+655,Painter,524579,10
+297,Customer Svc Mgr 2,525675,4
+553,K To 14 Acad Prep Mgr 1,527443,6
+515,Hs Asst Clin Prof-Hcomp,537104,6
+797,Rsch And Dev Engr Mgr 2,537530,3
+876,Stdt Svc Mgr 2,538500,5
+470,Gen Accountant 4,539391,9
+248,Continuing Appt-Temp Aug,540270,10
+407,Fac Project Mgr 4,545984,3
+206,Chan,546140,1
+378,Exec Advisor Mgr 2,548940,3
+181,Bus Sys Anl 2 Nex,549496,11
+302,Data Sys Anl 2,557229,12
+939,Truck Driver,559396,10
+207,Chef 2,563993,15
+836,Stdt Acad Advisor 2,564506,14
+54,Admissions Recrmt Mgr 1,572891,6
+423,Financial Aid Ofcr 4,577262,8
+962,Vis Res,578319,21
+440,Financial Svc Mgr 2,580610,4
+230,Comm And Network Tchl Anl 3,584098,8
+271,Coord Public Prog V,585163,8
+870,Stdt Life Devt Supv 2,587669,8
+338,Ehs Spec 5,587826,5
+694,Police Lieutenant Mgr 1,590837,5
+235,Comm Mgr 1,595189,6
+209,Child Dev Ctr Ast,597027,21
+309,Database Adm 3,601146,8
+959,Vis Asst Proj Scientist,601358,30
+651,Organizational Cnslt 3,604366,11
+600,Library Supv 1,605621,18
+53,Admissions Evaluator 3,607287,140
+741,Publ Safety Dispatcher,608996,8
+196,Career Svc Spec 3,609524,15
+663,Payroll Anl 3,611989,11
+251,Continuing Educator II,613562,9
+887,Storekeeper Sr,615268,15
+956,Vis Assoc Prof,616281,25
+351,Employee Rel Repr 4,618286,7
+119,Asst Adj Prof-Ay,631107,12
+295,Custodian Leader Sr,632432,11
+426,Financial Anl 2,632937,13
+746,Publications Prod Spec 4,633309,10
+620,Media Comm Spec 3,635743,12
+639,Nurse Practitioner 2,638071,7
+702,Procurement Anl 3,640252,10
+310,Database Adm 4,641032,6
+381,Exec Ast 4,642891,8
+907,Sys Admst Mgr 3,650138,4
+654,Organizational Dev Mgr 1,656008,5
+869,Stdt Life Devt Supv 1,657896,19
+572,Lab Mechn Sr,658653,19
+11,Acad HR Mgr 1,659136,7
+454,Food Svc Supv 2,664243,16
+676,Phys Plt Laborer Gardener Ld,669009,11
+621,Media Comm Spec 4,669312,8
+901,Sys Adm 2,669940,10
+231,Comm And Network Tchl Anl 4,680931,7
+519,Hs Clin Prof-Ay,682078,10
+158,Auto Equip Opr Sr,688156,18
+502,High Volt Electrn,688160,8
+411,Fac Project Mgt Spec 5,690079,6
+796,Rsch And Dev Engr Mgr 1,693570,5
+439,Financial Svc Mgr 1,696251,7
+354,Employment Repr 3,696927,10
+934,Trainer 3,698702,13
+909,Tchl Project Mgr 1,707192,5
+19,Academic Appt,723152,22
+523,IT Architect 4,725681,8
+949,VC Dev And Univ Rel,727396,2
+255,Contract Adm 4,729756,9
+24,Academic Coord III-Fy,735520,6
+318,Dev Tchn 5,736029,11
+791,Rsch And Dev Engr 1,738813,38
+807,Sales Spec 3,742703,17
+373,Events Spec 4,745206,10
+513,Hs Asst Clin Prof-Ay,751534,44
+223,Clin Social Worker 3,753497,12
+306,Data Sys Mgr 1,754847,7
+561,Lab Ast 1,769302,75
+790,Rsch Adm 5,772280,8
+689,Planning Spec 5,772308,7
+273,Coord Public Prog Vii,774582,9
+75,Applications Prg Supv 2,777101,7
+818,Skld Crafts And Trades Supv 2,777812,9
+682,Physcn Mgr 1,788878,4
+114,Assoc Res-Fy-B/E/E,793681,8
+175,Bldg Maint Worker Ld,802978,14
+74,Agron Aes-B/E/E-Ay,809672,4
+609,Marketing Spec 2,813937,21
+918,Tchn Sr,827388,25
+392,External Rel Spec 2,839767,26
+464,Fundraising Mgr 2,841764,7
+77,Applications Progm Mgr 2,852352,6
+524,IT Architect 5,854479,6
+152,Ath Trainer 3,854510,15
+258,Contracts And Grants Mgr 1,858271,8
+912,Tchl Project Mgt Profl 3,860682,11
+868,Stdt Life Dev Spec 4,862088,13
+960,Vis Asst Res,881333,29
+36,Adj Prof-Ay-B/E/E,884289,10
+293,Custodian Ld,890565,18
+80,Applications Progr 2,890719,22
+843,Stdt Acad Spec 4,902437,12
+219,Clin Nurse 2,904715,14
+91,Assoc Agron Aes-Ay-B/E/E,907114,5
+18,Academic Administrator Vii,915510,5
+438,Financial Svc Anl 4,924454,12
+783,Res-Ay-B/E/E,927135,5
+911,Tchl Project Mgt Profl 2,928268,15
+859,Stdt Health Physcn 5,938845,8
+965,Visual Comm Spec 4,943525,17
+376,Exec Advisor 4,953506,8
+399,Fac Mgr 2,954588,8
+184,Bus Sys Anl 5,964727,8
+120,Asst Agron Aes-Ay,965485,10
+272,Coord Public Prog Vi,968652,13
+662,Payroll Anl 2,974512,18
+845,Stdt Activities Appt Official,985240,415
+303,Data Sys Anl 3,987261,14
+274,Coord Public Prog Viii,987694,8
+541,Institutional Rsch Anl 4,988760,10
+947,User Experience Designer 4,990616,12
+190,Bus Tchl Supp Supv 2,995410,13
+213,Clerk Sr Or Secr,1007464,64
+880,Stdt Svc Supv 2,1011473,14
+371,Events Spec 2,1011521,36
+563,Lab Ast 3,1015102,45
+52,Admin Supv 2,1017244,13
+67,Aerospace Mgr 3,1022888,4
+176,Bldg Maint Worker Sr,1035949,23
+226,Coach Ast 2,1047542,37
+919,Teacher-Spec Prog,1050415,209
+73,Agron Aes-B/E/E,1051308,5
+395,External Rel Spec 5,1062115,9
+14,Acad Prg Mgr 2,1070433,7
+745,Publications Prod Spec 3,1079472,22
+780,Res-Ay,1081522,6
+131,Asst Proj Scientist-Fy-B/E/E,1087749,21
+290,Custodial Supv 1,1087767,23
+409,Fac Project Mgt Spec 3,1090683,16
+558,K To 14 Acad Prep Spec 3,1100008,22
+443,Financial Svc Supv 2,1102508,13
+549,Intellectual Property Ofcr 4,1109387,8
+337,Ehs Spec 4,1117941,12
+559,K To 14 Acad Prep Spec 4,1132294,18
+905,Sys Admst Mgr 1,1132910,11
+453,Food Svc Supv 1,1141932,31
+941,Tut-Non Gship,1159541,527
+57,Admissions Recrmt Spec 2,1161282,39
+2,Acad Achievement Cnslr 4,1166184,16
+64,Aerospace Engr 4,1168190,10
+924,Teachg Asst-Non Gship,1172554,169
+7,Acad HR Anl 2,1179507,24
+739,Publ Educ Spec 4,1228449,25
+969,Writer Editor 4,1233775,18
+45,Admin Mgr 4,1235329,5
+804,Rsch Data Anl 2,1246729,53
+805,Rsch Data Anl 3,1247312,21
+857,Stdt Health Physcn 4,1252442,10
+492,HR Supv 2,1252579,14
+562,Lab Ast 2,1254950,95
+838,Stdt Acad Advisor 4,1262447,18
+210,Child Dev Ctr Teacher 1,1263927,39
+824,Sr Lect Soe-Ay,1290485,10
+487,HR Generalist 4,1290937,15
+729,Project Policy Anl 5,1298907,13
+59,Admissions Recrmt Spec 4,1312497,18
+653,Organizational Cnslt 5,1313473,9
+757,Reader-Non Gship,1324842,533
+830,Sra 4,1347585,19
+571,Lab Mechn Prn,1348901,21
+87,Assoc Adj Prof-Ay,1355971,19
+304,Data Sys Anl 4,1370370,16
+412,Fac Supv 1,1410941,20
+403,Fac Mgt Spec 3,1416178,23
+109,Assoc Proj Scientist-Fy,1432852,24
+633,Museum Sci Sr,1450104,22
+279,Counseling Psychologist 3,1463306,23
+239,Comm Spec 3,1473979,29
+610,Marketing Spec 3,1487850,24
+761,Recall Teaching,1491074,67
+631,Museum Sci,1497911,36
+958,Vis Asst Prof,1498298,47
+431,Financial Anl Mgr 2,1503993,13
+526,IT Security Anl 4,1509309,14
+422,Financial Aid Ofcr 3,1531698,26
+690,Plumber Pipefitter,1540943,18
+961,Vis Prof,1551931,58
+787,Rsch Adm 2,1563008,34
+66,Aerospace Mgr 2,1567960,10
+62,Aerospace Engr 2,1572279,17
+785,Res-Fy-B/E/E,1586434,11
+822,Specialist Coop Ext,1597858,11
+882,Steamfitter,1601281,19
+429,Financial Anl 5,1643113,14
+696,Police Sergeant Supv 2,1662097,12
+261,Contracts And Grants Supv 2,1681562,19
+756,Reader-Gship,1684413,328
+535,Info Sys Mgr 2,1692425,12
+394,External Rel Spec 4,1692926,25
+86,Asc Head Coach Crd 4,1695751,5
+345,Electrn,1709775,21
+893,Sty Engr,1724219,27
+465,Fundraising Mgr 3,1726488,10
+430,Financial Anl Mgr 1,1730902,17
+9,Acad HR Anl 4,1739142,19
+536,Info Sys Mgr 3,1747479,9
+675,Phys Plt Laborer Gardener B,1757639,40
+377,Exec Advisor 5,1758395,11
+867,Stdt Life Dev Spec 3,1761815,37
+825,Sr Lect-Ay-Continuing,1765144,17
+719,Prof-Fy,1777108,10
+875,Stdt Svc Mgr 1,1781370,19
+63,Aerospace Engr 3,1788117,17
+968,Writer Editor 3,1823862,39
+913,Tchl Project Mgt Profl 4,1834278,20
+488,HR Mgr 1,1836064,15
+652,Organizational Cnslt 4,1837306,18
+595,Library Ast 4,1839884,40
+469,Gen Accountant 3,1852785,30
+835,Stdt 4,1872452,314
+76,Applications Progm Mgr 1,1875101,14
+171,Blank Ast 1,1903892,109
+459,Fundraiser 2 Nex,1923997,48
+935,Trainer 4,1954534,27
+336,Ehs Spec 3,1973297,27
+737,Publ Educ Spec 2,2006493,64
+321,Digital Comm Spec 4,2019169,25
+768,Recreation Prg Instr 2,2048680,427
+760,Recall Non-Faculty Acad,2066408,58
+463,Fundraising Mgr 1,2066856,18
+148,Ath Profl 3,2075393,46
+534,Info Sys Mgr 1,2101075,17
+402,Fac Mgt Spec 2,2102429,43
+462,Fundraiser 5,2147454,24
+552,Jr Specialist,2172842,134
+8,Acad HR Anl 3,2194330,34
+138,Asst Specialist,2216330,87
+262,Cook,2220303,104
+130,Asst Proj Scientist-Fy,2220909,53
+485,HR Generalist 2,2246315,56
+826,Sra 1,2259507,101
+580,Lect In Summer Session,2265794,193
+594,Library Ast 3,2272373,66
+200,Carpenter Locksmith,2293988,41
+393,External Rel Spec 3,2333525,46
+533,Info Sys Anl 4,2384829,24
+32,Act Prof-Ay-Law,2426976,12
+410,Fac Project Mgt Spec 4,2454688,24
+794,Rsch And Dev Engr 4,2464415,24
+874,Stdt Svc Advisor 4,2470924,38
+197,Career Svc Spec 4,2479064,45
+599,Library Profl 4,2484921,52
+827,Sra 2,2548004,77
+246,Computer Resc Spec 2,2574488,50
+44,Admin Mgr 3,2663160,16
+792,Rsch And Dev Engr 2,2702898,48
+793,Rsch And Dev Engr 3,2772459,38
+90,Assoc Agron Aes-Ay,2786480,22
+21,Academic Coord I-Fy,2803890,46
+240,Comm Spec 4,2807767,36
+49,Admin Ofcr 4,2860749,36
+58,Admissions Recrmt Spec 3,2889320,55
+723,Proj Scientist-Fy,2892857,34
+829,Sra 3,2914211,58
+188,Bus Tchl Supp Anl 3,2930463,44
+814,Security Guard Sr,2931471,75
+481,Gsr-Partial Fee Rem,2996327,261
+457,Food Svc Worker Sr,3019604,185
+872,Stdt Svc Advisor 2,3054345,66
+43,Admin Mgr 2,3062267,23
+137,Asst Res-Fy-B/E/E,3067279,41
+372,Events Spec 3,3168630,62
+113,Assoc Res-Fy,3311709,39
+71,Agron Aes,3327835,17
+738,Publ Educ Spec 3,3459538,82
+16,Acad Prg Mgt Ofcr 5,3490728,28
+320,Digital Comm Spec 3,3497994,59
+759,Recall Faculty,3503699,87
+34,Adj Prof-Ay,3582923,32
+726,Project Policy Anl 2,3712550,100
+183,Bus Sys Anl 4,3722497,40
+380,Exec Ast 3,3748951,66
+460,Fundraiser 3,3797746,66
+323,Director,3799457,14
+437,Financial Svc Anl 3,3823003,66
+832,Stdt 1,3858098,2119
+182,Bus Sys Anl 3,4006643,55
+227,Coach Ast 3,4056989,43
+187,Bus Tchl Supp Anl 2,4176468,77
+94,Assoc Dean,4277022,18
+903,Sys Adm 4,4278320,41
+486,HR Generalist 3,4321319,68
+461,Fundraiser 4,4479588,54
+695,Police Ofcr,4600876,47
+427,Financial Anl 3,4634406,72
+837,Stdt Acad Advisor 3,4656546,92
+72,Agron Aes-Ay,4787360,25
+532,Info Sys Anl 3,4861852,60
+728,Project Policy Anl 4,4936885,67
+834,Stdt 3,5080720,1216
+15,Acad Prg Mgt Ofcr 4,5111818,51
+312,Dean,5173206,17
+902,Sys Adm 3,5295745,61
+136,Asst Res-Fy,5488396,82
+482,Gsr-Tuit & Fee Rem,5520390,269
+784,Res-Fy,5521345,50
+42,Admin Mgr 1,5554105,51
+589,Librarian-Career Status,5761437,64
+727,Project Policy Anl 3,5921597,111
+873,Stdt Svc Advisor 3,6125163,124
+788,Rsch Adm 3,6133115,105
+428,Financial Anl 4,6151140,69
+480,Gsr-No Rem,6326983,644
+48,Admin Ofcr 3,6356628,93
+921,Teacher-Unex,6602842,796
+789,Rsch Adm 4,6713624,88
+584,Lect-Ay-1/9,6784902,555
+436,Financial Svc Anl 2,6918953,134
+23,Academic Coord II-Fy,6992173,70
+292,Custodian,7114338,222
+47,Admin Ofcr 2,7381214,166
+82,Applications Progr 4,7971874,83
+172,Blank Ast 2,7985310,279
+296,Custodian Sr,8067870,337
+107,Assoc Prof-Ay-B/E/E,8294966,44
+115,Assoc Specialist,8365873,207
+97,Assoc In __ -Ay-1/9-Gship,9628653,608
+493,Head Coach 5,9710081,27
+583,Lect-Ay,9792652,254
+81,Applications Progr 3,10275823,134
+821,Specialist,11438068,180
+586,Lect-Ay-Continuing,12362954,205
+129,Asst Prof-Ay-B/E/E,12932949,75
+833,Stdt 2,14269585,4882
+718,Prof-Ay-Law,15076648,52
+128,Asst Prof-Ay,15586291,142
+173,Blank Ast 3,25925869,646
+479,Gsr-Full Fee Rem,26590605,1228
+106,Assoc Prof-Ay,28541119,241
+923,Teachg Asst-Gship,29415931,2663
+698,Postdoc-Employee,39780085,1272
+717,Prof-Ay-B/E/E,52401578,231
+716,Prof-Ay,100729882,559

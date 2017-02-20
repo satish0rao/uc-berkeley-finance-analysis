@@ -1,0 +1,112 @@
+**************
+***BERKELEY 2011***
+**************
+
+Professors Position titles: most common
+PROFESSOR - ACADEMIC YEAR         562
+ASSOCIATE PROFESSOR-ACAD YR       221
+PROFESSOR-ACAD YR-BUS/ECON/ENG    213
+ASSISTANT PROFESSOR-ACAD YR       128
+ASSOC PROF-AY-BUS/ECON/ENG         58
+Name: title, dtype: int64
+Professors Count:  1685
+Professors Gross Pay:  217785367.08
+
+
+lect Position titles: most common
+LECTURER - ACADEMIC YEAR - 1/9    410
+LECTURER - ACADEMIC YEAR          237
+LECTURER-AY-CONTINUING APPT.      167
+LECTURER IN SUMMER SESSION        126
+ELECTRONIC COMM SPECIALIST 3       48
+Name: title, dtype: int64
+lect Count:  1133
+lect Gross Pay:  37465532.38
+
+**************
+***BERKELEY 2015***
+**************
+
+Professors Position titles: most common
+Prof-Ay                424
+Assoc Prof-Ay          143
+Prof-Ay-B/E/E          115
+Asst Prof-Ay            84
+Assoc Prof-Ay-B/E/E     24
+Name: Position, dtype: int64
+Professors Count:  858
+Professors Gross Pay:  122145082
+
+
+Lecturer Position titles: most common
+Lect-Ay-1/9               151
+Lect-Ay-Continuing         99
+Lect-Ay                    89
+Lect In Summer Session     45
+Sr Lect Soe-Ay             16
+Name: Position, dtype: int64
+Lecturer Count:  441
+Lecturer Gross Pay:  17600911
+
+
+Teaching Assistant Position titles: most common
+Teachg Asst-Gship        1357
+Teachg Asst-Non Gship      27
+Teachg Fellow-Gship         1
+Name: Position, dtype: int64
+Teaching Assistant Count:  1385
+Teaching Assistant Gross Pay:  19847127
+
+
+Teacher Position titles: most common
+Teacher-Unex-Contract Yr         106
+Child Dev Ctr Teacher 2           26
+Supv Teacher Ed-Ay                 5
+Supv Teacher Ed-Ay-Continuing      3
+Teacher-Spec Prog                  2
+Name: Position, dtype: int64
+Teacher Count:  142
+Teacher Gross Pay:  1755410
+
+
+GSR Position titles: most common
+Gsr-Tuit & Fee Rem     741
+Gsr-No Rem              55
+Gsr-Partial Fee Rem     26
+Gsr-Full Fee Rem         1
+Name: Position, dtype: int64
+GSR Count:  823
+GSR Gross Pay:  17151755
+
+
+PostDoc Position titles: most common
+Postdoc-Employee    361
+Name: Position, dtype: int64
+PostDoc Count:  361
+PostDoc Gross Pay:  13002377
+
+
+Research Associates Position titles: most common
+Res-Fy          25
+Asst Res-Fy     18
+Assoc Res-Fy    11
+Vis Res          6
+Res-Ay           5
+Name: Position, dtype: int64
+Research Associates Count:  83
+Research Associates Gross Pay:  6951904
+
+
+Scientist  Position titles: most common
+Asst Proj Scientist-Fy           36
+Asst Proj Scientist-Fy-B/E/E     15
+Proj Scientist-Fy                14
+Assoc Proj Scientist-Fy-B/E/E     9
+Proj Scientist-Fy-B/E/E           7
+Name: Position, dtype: int64
+Scientist  Count:  89
+Scientist  Gross Pay:  4740447
+
+Teachers    :  161348530
+Researchers :  41846483
+Total Wages :  446800769
