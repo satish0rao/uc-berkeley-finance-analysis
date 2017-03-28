@@ -60,6 +60,16 @@ def compare(finance,pairs,items,items_desc,enrollment,threshold= lambda x,y: x >
                            value_at_of(items_desc,'varname',x,'varTitle')])
     return result
 
+def compare1(finance,pairs,items,items_desc,enrollment,threshold= lambda x,y: x > y):
+    # print "Pairs",pairs
+    result = []
+    for x in items:
+        lst = []
+        for i in range(0,len(pairs)):
+            lst.append(value_ats_of(finance,pairs[i][0],pairs[i][1],x))
+        result.append([x, value_at_of(items_desc,'varname',x,'varTitle'), lst])
+    return result
+
 
 def report_diffs(data,pairs,items,items_desc,enrollment,threshold=lambda x,y: x > y):
     differences = compare(data,
@@ -77,9 +87,49 @@ def report_diffs(data,pairs,items,items_desc,enrollment,threshold=lambda x,y: x 
             else:
                 print x[1],x[2]
 
+def report_diffs1(data,pairs,items,items_desc,enrollment,threshold=lambda x,y: x > y):
+    differences = compare1(data,
+                          pairs,
+                          items,
+                          items_desc,
+                          enrollment,
+                          threshold=threshold)
+    print "Dude, Really?"
+    for x in differences:
+        if True or ('alaries' in x[1]) or ("ther" in x[1]):
+            if ((isinstance(x[2][0],int)) or (isinstance(x[2][0],float))) and (x[2][0] > 0):
+                print x[1],x[0],"hello"
+                for i in xrange(0,len(x[2])):
+                    if x[2][i] > 1000000:
+                        print "%d%s" % ((x[2][i]+500000)/1000000,"M"), 
+                    else:
+                        print "%d%s" % ((x[2][i]),""), 
+                print
+
+
 
 pairs=[[['name'],['University of California-Berkeley']],
-       [['name'],['University of California-Santa Barbara']]]
+       [['name'],['University of California-San Diego']],
+       [['name'],['University of California-Davis']],
+       [['name'],['University of California-Los Angeles']],
+       [['name'],['University of California-Santa Barbara']],
+       [['name'],['University of California-Santa Cruz']],
+       [['name'],['University of California-Irvine']],
+       [['name'],['University of California-Riverside']],
+       [['name'],['University of Illinois at Urbana-Champaign']],
+       [['name'],['University of Michigan-Ann Arbor']],
+       [['name'],['University of Virginia-Main Campus']],
+       [['name'],['Princeton University']],
+       [['name'],['Harvard University']],
+       [['name'],['Williams College']],
+       [['name'],['Stanford University']],
+       [['name'],['Massachusetts Institute of Technology']],
+       [['name'],['Carnegie Mellon University']]]
+       
+
+#       [['name'],['University of California-Merced']]]
+
+
 
 for tup in [["Finance",pairs,finance,finance_clean_columns,finance_varlist],
             ["Instruction",map(lambda(x): [x[0]+ ['ARANK'], x[1] + [7]],copy.deepcopy(pairs)),
@@ -93,9 +143,9 @@ for tup in [["Finance",pairs,finance,finance_clean_columns,finance_varlist],
     data = tup[2]
     items = tup[3]
     desc = tup[4]
-    report_diffs(data,
-                 pairs,
-                 items,
-                 desc,
-                 enrollment,
-                 threshold=lambda x,y: (isinstance(x,(int,float)) and (True or x > y)))
+    report_diffs1(data,
+                  pairs,
+                  items,
+                  desc,
+                  enrollment,
+                  threshold=lambda x,y: (isinstance(x,(int,float)) and (True or x > y)))

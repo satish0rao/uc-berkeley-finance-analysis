@@ -1,0 +1,13 @@
+title,field,shrtname
+"Student services - Salaries and wages",F1C062,"Stdt"
+"Auxilary Enterprises - Salaries and Wages",F1C112,"Aux"
+"Instruction - Salaries and wages",XF1C012,"Inst"
+"Research - Salaries and wages",XF1C022,"Res"
+"Public service - Salaries and wages",XF1C032,"Pub"
+"Academic support - Salaries and wages",XF1C052,"Acad Supp"
+"Operation  maintenance of plant - Salaries and wages",XF1C082,"Ops/Plant"
+"Institutional support - Salaries and wages",XF1C072,"Inst Supp"
+"Hospital services - Salaries and wages",XF1C122,"Hosp"
+"Independent operations - Salaries and wages",XF1C132,"Ind ops"
+"Other expenses  deductions - Salaries and wages",XF1C142,"Other ded"
+"Total expenses  deductions - Salaries and wages",XF1C192,"Total ded"

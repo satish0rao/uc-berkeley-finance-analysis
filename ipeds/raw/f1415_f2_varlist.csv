@@ -1,0 +1,199 @@
+varnumber,varname,DataType,Fieldwidth,format,imputationvar,varTitle
+1,UNITID,N,6,Cont,,Unique identification number of the institution
+60606,F2A01,N,12,Cont,XF2A01,Long-term investments
+60611,F2A02,N,12,Cont,XF2A02,Total assets
+60616,F2A03,N,12,Cont,XF2A03,Total liabilities
+65091,F2A03A,N,12,Cont,XF2A03A,"Debt related to Property, Plant, and Equipment"
+60621,F2A04,N,12,Cont,XF2A04,Total unrestricted net assets
+60626,F2A05,N,12,Cont,XF2A05,Total restricted net assets
+64825,F2A05A,N,12,Cont,XF2A05A,Permanently restricted net assets included in total restricted net assets
+65096,F2A05B,N,12,Cont,XF2A05B,Temporarily restricted net assets
+60631,F2A06,N,12,Cont,XF2A06,Total net assets
+60636,F2A11,N,12,Cont,XF2A11,Land  improvements - End of year
+60641,F2A12,N,12,Cont,XF2A12,Buildings - End of year
+60646,F2A13,N,12,Cont,XF2A13,"Equipment, including art and library collections - End of year"
+65101,F2A15,N,12,Cont,XF2A15,Construction in Progress
+65106,F2A16,N,12,Cont,XF2A16,"Other plant, property and equipment"
+65111,F2A17,N,12,Cont,XF2A17,"Total Plant, Property, and Equipment"
+65116,F2A18,N,12,Cont,XF2A18,Accumulated depreciation
+65121,F2A19,N,12,Cont,XF2A19,"Property, Plant, and Equipment, net of accumulated depreciation"
+65126,F2A20,N,12,Cont,XF2A20,"Intangible Assets, net of accumulated amortization"
+60656,F2B01,N,12,Cont,XF2B01,Total revenues and investment return
+60661,F2B02,N,12,Cont,XF2B02,Total expenses
+60666,F2B03,N,12,Cont,XF2B03,Other specific changes in net assets
+60671,F2B04,N,12,Cont,XF2B04,Total change in net assets
+60676,F2B05,N,12,Cont,XF2B05,"Net assets, beginning of the year"
+60681,F2B06,N,12,Cont,XF2B06,Adjustments to beginning of year net assets
+60686,F2B07,N,12,Cont,XF2B07,"Net assets, end of the year"
+60691,F2C01,N,12,Cont,XF2C01,Pell grants
+60696,F2C02,N,12,Cont,XF2C02,Other federal grants
+60701,F2C03,N,12,Cont,XF2C03,State grants
+60706,F2C04,N,12,Cont,XF2C04,Local grants
+60711,F2C05,N,12,Cont,XF2C05,Institutional grants (funded)
+60716,F2C06,N,12,Cont,XF2C06,Institutional grants (unfunded)
+60721,F2C07,N,12,Cont,XF2C07,Total student grants
+60726,F2C08,N,12,Cont,XF2C08,Allowances applied to tuition and fees
+60731,F2C09,N,12,Cont,XF2C09,Allowances applied to auxiliary enterprise revenues
+60736,F2D01,N,12,Cont,XF2D01,Tuition and fees - Total
+65131,F2D012,N,12,Cont,XF2D012,Tuition and fees - Unrestricted
+65136,F2D013,N,12,Cont,XF2D013,Tuition and fees - Temporarily restricted
+65141,F2D014,N,12,Cont,XF2D014,Tuition and fees - Permanently restricted
+60741,F2D02,N,12,Cont,XF2D02,Federal appropriations - Total
+65146,F2D022,N,12,Cont,XF2D022,Federal appropriations - Unrestricted
+65151,F2D023,N,12,Cont,XF2D023,Federal appropriations - Temporarily restricted
+65156,F2D024,N,12,Cont,XF2D024,Federal appropriations - Permanently restricted
+60746,F2D03,N,12,Cont,XF2D03,State appropriations - Total
+65161,F2D032,N,12,Cont,XF2D032,State appropriations - Unrestricted
+65166,F2D033,N,12,Cont,XF2D033,State appropriations - Temporarily restricted
+65171,F2D034,N,12,Cont,XF2D034,State appropriations - Permanently restricted
+60751,F2D04,N,12,Cont,XF2D04,Local appropriations - Total
+65176,F2D042,N,12,Cont,XF2D042,Local appropriations - Unrestricted
+65181,F2D043,N,12,Cont,XF2D043,Local appropriations -  Temporarily restricted
+65186,F2D044,N,12,Cont,XF2D044,Local appropriations - Permanently restricted
+60756,F2D05,N,12,Cont,XF2D05,Federal grants and contracts - Total
+65191,F2D052,N,12,Cont,XF2D052,Federal grants and contracts - Unrestricted
+65196,F2D053,N,12,Cont,XF2D053,Federal grants and contracts  - Temporarily restricted
+65201,F2D054,N,12,Cont,XF2D054,Federal grants and contracts - Pemanently restricted
+60761,F2D06,N,12,Cont,XF2D06,State grants and contracts - Total
+65206,F2D062,N,12,Cont,XF2D062,State grants and contracts - Unrestricted
+65211,F2D063,N,12,Cont,XF2D063,State grants and contracts - Temporarily restricted
+65216,F2D064,N,12,Cont,XF2D064,State grants and contracts - Permanently restricted
+60766,F2D07,N,12,Cont,XF2D07,Local grants and contracts - Total
+65221,F2D072,N,12,Cont,XF2D072,Local grants and contracts - Unrestricted
+65226,F2D073,N,12,Cont,XF2D073,Local grants and contracts - Temporarily restricted
+65231,F2D074,N,12,Cont,XF2D074,Local grants and contracts  - Permanently restricted
+60771,F2D08,N,12,Cont,XF2D08,"Private gifts, grants, and contracts - Total"
+65236,F2D082,N,12,Cont,XF2D082,"Private gifts, grants, and contracts - Unrestricted"
+65251,F2D083,N,12,Cont,XF2D083,"Private gifts, grants and contracts - Temporarily restricted"
+65266,F2D084,N,12,Cont,XF2D084,"Private gifts, grants, and contracts - Permanently restricted"
+65281,F2D08A,N,12,Cont,XF2D08A,Private gifts - Total
+65241,F2D082A,N,12,Cont,XF2D082A,Private gifts - Unrestricted
+65256,F2D083A,N,12,Cont,XF2D083A,Private gifts - Temporarily restricted
+65271,F2D084A,N,12,Cont,XF2D084A,Private gifts - Permanentlly restricted
+65286,F2D08B,N,12,Cont,XF2D08B,Private grants and contrants - Total
+65246,F2D082B,N,12,Cont,XF2D082B,Private grants and contracts - Unrestricted
+65261,F2D083B,N,12,Cont,XF2D083B,Private grants and contracts - Temporarily restricted
+65276,F2D084B,N,12,Cont,XF2D084B,"Private grants, and contracts - Permanently restricted"
+60776,F2D09,N,12,Cont,XF2D09,Contributions from affiliated entities - Total
+65291,F2D092,N,12,Cont,XF2D092,Contributions from affiliated entities - Unrestricted
+65296,F2D093,N,12,Cont,XF2D093,Contributions from affiliated entities - Temporarily restricted
+65301,F2D094,N,12,Cont,XF2D094,Contributions from affiliated entities - Permanently restricted
+60781,F2D10,N,12,Cont,XF2D10,Investment return - Total
+65306,F2D102,N,12,Cont,XF2D102,Investment return - Unrestricted
+65311,F2D103,N,12,Cont,XF2D103,Investment return - Temporarily restricted
+65316,F2D104,N,12,Cont,XF2D104,Investment return - Permanently restricted
+60786,F2D11,N,12,Cont,XF2D11,Sales and services of educational activities - Total
+65321,F2D112,N,12,Cont,XF2D112,Sales and services of educational activities - Unrestricted
+60791,F2D12,N,12,Cont,XF2D12,Sales and services of auxiliary enterprises - Total
+65326,F2D122,N,12,Cont,XF2D122,Sales and services of auxiliary enterprises - Unrestricted
+60796,F2D13,N,12,Cont,XF2D13,Hospital revenue - Total
+65331,F2D132,N,12,Cont,XF2D132,Hospital revenue - Unrestricted
+60801,F2D14,N,12,Cont,XF2D14,Independent operations revenue - Total
+65336,F2D142,N,12,Cont,XF2D142,Independent operations revenue - Unrestricted
+65341,F2D143,N,12,Cont,XF2D143,Independent operations revenue - Temporarily restricted
+65346,F2D144,N,12,Cont,XF2D144,Independent operations revenue - Permanently restricted
+60806,F2D15,N,12,Cont,XF2D15,Other revenue - Total
+65351,F2D152,N,12,Cont,XF2D152,Other revenue - Unrestricted
+65356,F2D153,N,12,Cont,XF2D153,Other revenue - Temporarily restricted
+65361,F2D154,N,12,Cont,XF2D154,Other revenue - Permanently restricted
+60811,F2D16,N,12,Cont,XF2D16,Total revenues and investment return - Total
+65366,F2D162,N,12,Cont,XF2D162,Total revenues and investment return - Unrestricted
+65371,F2D163,N,12,Cont,XF2D163,Total revenues and investment return - Temporarily restricted
+65376,F2D164,N,12,Cont,XF2D164,Total revenues and investment return - Permanently restricted
+65380,F2D17,N,12,Cont,XF2D17,Net assets released from restriction - Total
+65381,F2D172,N,12,Cont,XF2D172,Net assets released from restriction - Unrestricted
+65386,F2D173,N,12,Cont,XF2D173,Net assets released from restriction - Temporarily restricted
+65387,F2D174,N,12,Cont,XF2D174,Net assets released from restriction - Permanently restricted
+65390,F2D18,N,12,Cont,XF2D18,"Net total revenues, after assets released from restriction - Total"
+65391,F2D182,N,12,Cont,XF2D182,"Net total revenues, after assets released from restriction - Unrestricted"
+65396,F2D183,N,12,Cont,XF2D183,"Net total revenues, after assets released from restriction - Temporarily restricted"
+65401,F2D184,N,12,Cont,XF2D184,"Net total revenues, after assets released from restriction - Permanently restricted"
+60816,F2E011,N,12,Cont,XF2E011,Instruction-Total amount
+60821,F2E012,N,12,Cont,XF2E012,Instruction-Salaries and wages
+60826,F2E013,N,12,Cont,XF2E013,Instruction-Benefits
+60831,F2E014,N,12,Cont,XF2E014,Instruction-Operation and maintenance of plant
+60836,F2E015,N,12,Cont,XF2E015,Instruction-Depreciation
+60841,F2E016,N,12,Cont,XF2E016,Instruction-Interest
+60846,F2E017,N,12,Cont,XF2E017,Instruction-All other
+60851,F2E021,N,12,Cont,XF2E021,Research-Total amount
+60856,F2E022,N,12,Cont,XF2E022,Research-Salaries and wages
+60861,F2E023,N,12,Cont,XF2E023,Research-Benefits
+60866,F2E024,N,12,Cont,XF2E024,Research-Operation and maintenance of plant
+60871,F2E025,N,12,Cont,XF2E025,Research-Depreciation
+60876,F2E026,N,12,Cont,XF2E026,Research-Interest
+60881,F2E027,N,12,Cont,XF2E027,Research-All other
+60886,F2E031,N,12,Cont,XF2E031,Public service-Total amount
+60891,F2E032,N,12,Cont,XF2E032,Public service-Salaries and wages
+60896,F2E033,N,12,Cont,XF2E033,Public service-Benefits
+60901,F2E034,N,12,Cont,XF2E034,Public service-Operation and maintenance of plant
+60906,F2E035,N,12,Cont,XF2E035,Public service-Depreciation
+60911,F2E036,N,12,Cont,XF2E036,Public service-Interest
+60916,F2E037,N,12,Cont,XF2E037,Public service-All other
+60921,F2E041,N,12,Cont,XF2E041,Academic support-Total amount
+60926,F2E042,N,12,Cont,XF2E042,Academic support-Salaries and wages
+60931,F2E043,N,12,Cont,XF2E043,Academic support-Benefits
+60936,F2E044,N,12,Cont,XF2E044,Academic support-Operation and maintenance of plant
+60941,F2E045,N,12,Cont,XF2E045,Academic support-Depreciation
+60946,F2E046,N,12,Cont,XF2E046,Academic support-Interest
+60951,F2E047,N,12,Cont,XF2E047,Academic support-All other
+60956,F2E051,N,12,Cont,XF2E051,Student service-Total amount
+60961,F2E052,N,12,Cont,XF2E052,Student service-Salaries and wages
+60966,F2E053,N,12,Cont,XF2E053,Student service-Benefits
+60971,F2E054,N,12,Cont,XF2E054,Student service-Operation and maintenance of plant
+60976,F2E055,N,12,Cont,XF2E055,Student service-Depreciation
+60981,F2E056,N,12,Cont,XF2E056,Student service-Interest
+60986,F2E057,N,12,Cont,XF2E057,Student service-All other
+60991,F2E061,N,12,Cont,XF2E061,Institutional support-Total amount
+60996,F2E062,N,12,Cont,XF2E062,Institutional support-Salaries and wages
+61001,F2E063,N,12,Cont,XF2E063,Institutional support-Benefits
+61006,F2E064,N,12,Cont,XF2E064,Institutional support-Operation and maintenance of plant
+61011,F2E065,N,12,Cont,XF2E065,Institutional support-Depreciation
+61016,F2E066,N,12,Cont,XF2E066,Institutional support-Interest
+61021,F2E067,N,12,Cont,XF2E067,Institutional support-All other
+61026,F2E071,N,12,Cont,XF2E071,Auxiliary enterprises-Total amount
+61031,F2E072,N,12,Cont,XF2E072,Auxiliary enterprises-Salaries and wages
+61036,F2E073,N,12,Cont,XF2E073,Auxiliary enterprises-Benefits
+61041,F2E074,N,12,Cont,XF2E074,Auxiliary enterprises-Operation and maintenance of plant
+61046,F2E075,N,12,Cont,XF2E075,Auxiliary enterprises-Depreciation
+61051,F2E076,N,12,Cont,XF2E076,Auxiliary enterprises-Interest
+61056,F2E077,N,12,Cont,XF2E077,Auxiliary enterprises-All other
+61061,F2E081,N,12,Cont,XF2E081,Net grant aid to students-Total amount
+61091,F2E087,N,12,Cont,XF2E087,Net grant aid to students-All other
+61096,F2E091,N,12,Cont,XF2E091,Hospital services-Total amount
+61101,F2E092,N,12,Cont,XF2E092,Hospital services-Salaries and wages
+61106,F2E093,N,12,Cont,XF2E093,Hospital services-Benefits
+61111,F2E094,N,12,Cont,XF2E094,Hospital services-Operation and maintenance of plant
+61116,F2E095,N,12,Cont,XF2E095,Hospital services-Depreciation
+61121,F2E096,N,12,Cont,XF2E096,Hospital services-Interest
+61126,F2E097,N,12,Cont,XF2E097,Hospital services-All other
+61131,F2E101,N,12,Cont,XF2E101,Independent operations-Total Amount
+61136,F2E102,N,12,Cont,XF2E102,Independent operations-Salaries and wages
+61141,F2E103,N,12,Cont,XF2E103,Independent operations-Benefits
+61146,F2E104,N,12,Cont,XF2E104,Independent operations-Operation and maintenance of plant
+61151,F2E105,N,12,Cont,XF2E105,Independent operations-Depreciation
+61156,F2E106,N,12,Cont,XF2E106,Independent operations-Interest
+61161,F2E107,N,12,Cont,XF2E107,Independent operations-All other
+61166,F2E111,N,12,Cont,XF2E111,Operation and maintenance of plant-Total amount
+61171,F2E112,N,12,Cont,XF2E112,Operation and maintenance of plant-Salaries and wages
+61176,F2E113,N,12,Cont,XF2E113,Operation and maintenance of plant-Benefits
+61181,F2E114,N,12,Cont,XF2E114,Operation and maintenance of plant-Operation and maintenance of plant
+61186,F2E115,N,12,Cont,XF2E115,Operation and maintenance of plant-Depreciation
+61191,F2E116,N,12,Cont,XF2E116,Operation and maintenance of plant-Interest
+61196,F2E117,N,12,Cont,XF2E117,Operation and maintenance of plant-All other
+61201,F2E121,N,12,Cont,XF2E121,Other expenses-Total amount
+61206,F2E122,N,12,Cont,XF2E122,Other expenses-Salaries and wages
+61211,F2E123,N,12,Cont,XF2E123,Other expenses-Benefits
+61216,F2E124,N,12,Cont,XF2E124,Other expenses-Operation and maintenance of plant
+61221,F2E125,N,12,Cont,XF2E125,Other expenses-Depreciation
+61226,F2E126,N,12,Cont,XF2E126,Other expenses-Interest
+61231,F2E127,N,12,Cont,XF2E127,Other expenses-All other
+61236,F2E131,N,12,Cont,XF2E131,Total expenses-Total amount
+61241,F2E132,N,12,Cont,XF2E132,Total expenses-Salaries and wages
+61246,F2E133,N,12,Cont,XF2E133,Total expenses-Benefits
+61251,F2E134,N,12,Cont,XF2E134,Total expenses-Operation and maintenance of plant
+61256,F2E135,N,12,Cont,XF2E135,Total expenses-Depreciation
+61261,F2E136,N,12,Cont,XF2E136,Total expenses-Interest
+61266,F2E137,N,12,Cont,XF2E137,Total expenses-All other
+61281,F2FHA,N,2,Disc,,Does this institution or any of its foundations or other affiliated organizations own endowment assets ?
+61271,F2H01,N,12,Cont,XF2H01,Value of endowment assets at the beginning of the fiscal year
+61276,F2H02,N,12,Cont,XF2H02,Value of endowment assets at the end of the fiscal year
